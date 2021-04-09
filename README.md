@@ -1,4 +1,4 @@
-# CoffeeWebstie
+# CoffeeWebsite
 HTML, CSS &amp; JS language for a coffee website
 
 Hello guys!
