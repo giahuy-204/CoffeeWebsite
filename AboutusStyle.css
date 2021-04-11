@@ -1,16 +1,20 @@
 nav ul li {
-    display:inline-block;
-    background-color: rgb(121, 92, 52);
+    display: inline-block;
+    background-color: #d0a465;
     padding: 20px;
     margin: 10px;
     border: 1px solid black;
     border-radius: 20px;
 }
 
+nav ul li a {
+    color: brown;
+}
+
 .class_container {
     width: 100%;
     height: 100px;
-    background-color: rgb(75, 55, 28);
+    background-color: #c2893a;
     border: 2px solid black;
 }
 
@@ -21,12 +25,13 @@ a {
 }
 
 .avatar_container {
-    background-color:rgb(154, 123, 79);
+    background-color: rgb(154, 123, 79);
     position: relative;
     display: inline-block;
 }
+
 .tooltip {
-    width:30%;
+    width: 30%;
     position: relative;
     display: inline-block;
     margin: 15px;
@@ -35,7 +40,7 @@ a {
 .tooltip img {
     border-radius: 50%;
 }
-  
+
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 160px;
@@ -44,7 +49,6 @@ a {
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
-  
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
@@ -52,15 +56,15 @@ a {
     left: 50%;
     margin-left: -60px;
 }
-  
+
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
 
 .about_us {
-    color:white;
-    position:relative;
-    text-align:center;
+    color: white;
+    position: relative;
+    text-align: center;
     border: 1px solid black;
     width: 100%;
     height: 40px;
@@ -69,15 +73,15 @@ a {
 
 .text_and_image_container {
     width: 100%;
-    position:relative;
+    position: relative;
     float: left;
     display: block;
 }
 
 .text_container {
-    width:70%;
-    position:relative;
-    float:right;
+    width: 70%;
+    position: relative;
+    float: right;
     font-family: 'Kiwi Maru', serif;
     display: block;
     text-align: left;
@@ -85,8 +89,8 @@ a {
 
 .image_container {
     width: 30%;
-    position:relative;
-    float:left;
+    position: relative;
+    float: left;
     display: block;
 }
 
@@ -103,17 +107,17 @@ a:hover {
 
 .footer-basic {
     margin-top: 25px;
-    padding:0px 0;
-    background-color:#ffffff;
-    color:#4b4c4d;
-  }
+    padding: 0px 0;
+    background-color: #ffffff;
+    color: #4b4c4d;
+}
 
 .footer-basic .copyright {
-    margin-top:15px;
-    text-align:center;
-    font-size:23px;
-    color:#aaa;
-    margin-bottom:0;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 23px;
+    color: #aaa;
+    margin-bottom: 0;
 }
 
 body {
