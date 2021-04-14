@@ -1,17 +1,16 @@
 nav ul li {
-    width: 10%;
     display: inline-block;
-    background-color: #d0a465;
-    padding: 20px;
+    padding: 15px;
     border: 1px solid black;
     border-radius: 20px;
-    font-size:20px;
-    margin: 5px;
 }
 
-.class_container ul li.active-page
-{
-  background-color:rgb(174, 190, 152);
+nav {
+    background-color: #d0a465;
+}
+
+.class_container ul li.active-page {
+    background-color: rgb(174, 190, 152);
 }
 
 nav ul li a {
@@ -21,7 +20,7 @@ nav ul li a {
 .class_container {
     width: 100%;
     height: 100px;
-    background-color: #c2893a;
+    background-color: #d0a465;
     border: 2px solid black;
 }
 
@@ -139,7 +138,7 @@ button {
     display: block;
     background-color: brown;
     color: white;
-    padding: 20px;
+    padding: 5px;
     font-size: 25px;
     font-family: 'Oswald', sans-serif;
 }
@@ -175,4 +174,64 @@ body {
 
 img {
     display: block;
+}
+
+@media screen and (max-width:600px) {
+    .text-containter,
+    .image-containter {
+        width: 100%;
+    }
+    .text-containter2,
+    .image-containter2 {
+        width: 100%;
+    }
+    .text-container,
+    .text-container2 {
+        text-align: left;
+    }
+    .image-container,
+    .image-container2 {
+        text-align: center;
+    }
+    .text1,
+    .text3 {
+        font-size: 45px;
+    }
+    .text2,
+    .text4 {
+        font-size: 35px;
+    }
+    nav {
+        text-align: left
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .text-containter,
+    .image-containter {
+        width: 100%;
+    }
+    .text-containter2,
+    .image-containter2 {
+        width: 100%;
+    }
+    .text-container,
+    .text-container2 {
+        text-align: left;
+    }
+    .image-container,
+    .image-container2 {
+        text-align: center;
+    }
+    .text1,
+    .text3 {
+        font-size: 40px;
+    }
+    .text2,
+    .text4 {
+        font-size: 30px;
+    }
+    nav {
+        text-align: left
+    }
 }
