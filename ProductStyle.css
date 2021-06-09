@@ -1,0 +1,136 @@
+nav ul li {
+    display: inline-block;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+nav {
+    background-color: #d0a465;
+}
+
+.class_container ul li.active-page {
+    background-color: rgb(174, 190, 152);
+}
+
+nav ul li a {
+    color: brown;
+}
+
+.class_container {
+    width: 100%;
+    height: 100px;
+    background-color: #d0a465;
+    border: 2px solid black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar_container {
+    background-color: rgb(154, 123, 79);
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip {
+    width: 30%;
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+}
+
+.tooltip img {
+    border-radius: 50%;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.about_us {
+    color: white;
+    position: relative;
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+    height: 40px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.text_and_image_container {
+    width: 100%;
+    position: relative;
+    float: left;
+    display: block;
+}
+
+.text_container {
+    width: 70%;
+    position: relative;
+    float: right;
+    font-family: 'Kiwi Maru', serif;
+    display: block;
+    text-align: left;
+}
+
+.image_container {
+    width: 30%;
+    position: relative;
+    float: left;
+    display: block;
+}
+
+.current_owner {
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+a:hover {
+    color: blue;
+}
+
+.footer-basic {
+    margin-top: 25px;
+    padding: 0px 0;
+    background-color: #ffffff;
+    color: #4b4c4d;
+}
+
+.footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 23px;
+    color: #aaa;
+    margin-bottom: 0;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#thumbnail {
+    display: block;
+}
