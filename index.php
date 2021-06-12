@@ -66,7 +66,7 @@ if (isset($_POST['add'])){
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 </head>
-<body>
+<body style="background-color:#af7c35">
 
 <img id="thumbnail" src="https://i.imgur.com/QHMQohI.jpg?1" width="100%">
     <div class="class_container">
