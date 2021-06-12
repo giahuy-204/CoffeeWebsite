@@ -1,4 +1,4 @@
-img{
+img {
     max-width: 100%;
     height: auto;
     background: lightblue;
@@ -6,26 +6,26 @@ img{
 }
 
 .fa-star,
-.fa-star-half{
+.fa-star-half {
     color: yellowgreen;
     padding: 3% 0;
 }
 
-#cart_count{
+#cart_count {
     text-align: center;
     padding: 0 0.9rem 0.1rem 0.9rem;
     border-radius: 3rem;
 }
 
-.shopping-cart{
+.shopping-cart {
     padding: 3% 0;
 }
 
-.cart-items + .cart-items{
+.cart-items+.cart-items {
     padding: 2% 0;
 }
 
-.price-details h6{
+.price-details h6 {
     padding: 3% 2%;
 }
 
@@ -59,6 +59,7 @@ a {
     color: white;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+<<<<<<< HEAD
 }
 .footer-basic {
     margin-top: 25px;
@@ -82,4 +83,6 @@ body {
 
 #thumbnail {
     display: block;
+=======
+>>>>>>> 0cbbddede2c5a7e09669ba583cbb07797c2572a4
 }
