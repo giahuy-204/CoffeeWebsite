@@ -60,11 +60,11 @@ if (isset($_POST['add'])){
 
     <link rel="stylesheet" href="style.css">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 </head>
 <body>
 
@@ -75,13 +75,13 @@ if (isset($_POST['add'])){
                 <li>
                     <a href="index.html"><i class="fa fa-fw fa-home"></i>Homepage</a>
                 </li>
-                <li>
+                <li class="active-page">
                     <a href ="http://test69.atwebpages.com/index.php">Product</a>
                 </li>
                 <li>
                     <a href="Aboutus.html"><i class="fa fa-fw fa-envelope"></i>About us</a>
                 </li>
-                <li class="active-page">
+                <li>
                     <a href="Contactus.html"><i class="fa fa-fw fa-user"></i>Contact us</a>
                 </li>
             </ul>
