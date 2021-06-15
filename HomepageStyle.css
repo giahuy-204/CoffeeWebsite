@@ -1,37 +1,28 @@
-nav ul li {
-    display: inline-block;
-    padding: 15px;
-    border: 1px solid black;
-    border-radius: 20px;
-}
-
-nav {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     background-color: #d0a465;
 }
 
-.class_container ul li.active-page {
-    background-color: rgb(174, 190, 152);
+li {
+    float: left;
 }
 
-nav ul li a {
-    color: brown;
-}
-
-.class_container {
-    width: 100%;
-    height: 100px;
-    background-color: #d0a465;
-    border: 2px solid black;
-}
-
-a {
-    color: white;
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text: 15px;
 }
 
-a:hover {
-    color: blue;
+li a:hover {
+    color: white;
+    background-color: brown;
+    font-weight: bold;
 }
 
 .welcome {
@@ -176,7 +167,32 @@ img {
     display: block;
 }
 
-@media screen and (max-width:600px) {
+.nav-toggle {
+    display: none;
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.nav-toggle img {
+    width: 1.5rem;
+    transition: 300ms all ease;
+}
+
+.nav-toggle:hover img {
+    opacity: 0.6;
+}
+
+.open {
+    height: 100vh;
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width:720px) {
     .text-containter,
     .image-containter {
         width: 100%;
@@ -202,36 +218,19 @@ img {
         font-size: 35px;
     }
     nav {
-        text-align: left
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .text-containter,
-    .image-containter {
+        height: 0;
         width: 100%;
+        overflow: hidden;
     }
-    .text-containter2,
-    .image-containter2 {
-        width: 100%;
-    }
-    .text-container,
-    .text-container2 {
-        text-align: left;
-    }
-    .image-container,
-    .image-container2 {
+    li {
+        display: block;
         text-align: center;
+        padding: 1.5rem 0;
     }
-    .text1,
-    .text3 {
-        font-size: 40px;
+    li a {
+        font-size: 1.4rem;
     }
-    .text2,
-    .text4 {
-        font-size: 30px;
-    }
-    nav {
-        text-align: left
+    .nav-toggle {
+        display: block;
     }
 }

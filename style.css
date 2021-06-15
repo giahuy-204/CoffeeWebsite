@@ -1,3 +1,30 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d0a465;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text: 15px;
+}
+
+li a:hover {
+    color: white;
+    background-color: brown;
+    font-weight: bold;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -29,23 +56,8 @@ img {
     padding: 3% 2%;
 }
 
-nav ul li {
-    display: inline-block;
-    padding: 15px;
-    border: 1px solid black;
-    border-radius: 20px;
-}
-
-nav {
-    background-color: #d0a465;
-}
-
 .class_container ul li.active-page {
     background-color: rgb(174, 190, 152);
-}
-
-nav ul li a {
-    color: brown;
 }
 
 .class_container {
@@ -55,11 +67,6 @@ nav ul li a {
     border: 2px solid black;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 .footer-basic {
     margin-top: 25px;
     padding: 0px 0;
@@ -82,4 +89,48 @@ body {
 
 #thumbnail {
     display: block;
+}
+
+.nav-toggle {
+    display: none;
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.nav-toggle img {
+    width: 1.5rem;
+    transition: 300ms all ease;
+}
+
+.nav-toggle:hover img {
+    opacity: 0.6;
+}
+
+.open {
+    height: 100vh;
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width:720px) {
+    nav {
+        height: 0;
+        width: 100%;
+        overflow: hidden;
+    }
+    li {
+        display: block;
+        text-align: center;
+        padding: 1.5rem 0;
+    }
+    li a {
+        font-size: 1.4rem;
+    }
+    .nav-toggle {
+        display: block;
+    }
 }
