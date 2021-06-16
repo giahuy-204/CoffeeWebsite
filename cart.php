@@ -51,7 +51,7 @@ if (isset($_POST['order'])){
 
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-light">
+<body class="bg-brown">
 
 <?php
     require_once ('php/header.php');
@@ -125,6 +125,18 @@ if (isset($_POST['order'])){
     </div>
 </div>
 
+<script type="text/javascript">
+    var total = "<?php echo $total; ?>";
+    document.getElementById("order").addEventListener("click", function() {
+        if (total == 0) {
+            alert('Please add some product before purchasing!');
+            window.location = 'index.php';
+        } else {
+            alert('Order received! Please wait for our confirmation');
+            window.location = 'index.html';
+        }
+    });
+</script>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
