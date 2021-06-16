@@ -19,6 +19,18 @@ if (isset($_POST['remove'])){
   }
 }
 
+if (isset($_POST['order'])){
+    if ($_GET['action'] == 'order'){
+        foreach ($_SESSION['cart'] as $key => $value){
+            if($value["product_id"] == $_GET['id']){
+                unset($_SESSION['cart'][$key]);
+                echo "<script>alert('Product has been removed!')</script>";
+                echo "<script>window.location = 'cart.php'</script>";
+            }
+        }
+    }
+  }
+
 
 ?>
 
@@ -103,7 +115,7 @@ if (isset($_POST['remove'])){
                             ?></h6>
                     </div>
                     <div class="col-md-6">
-                        <button type="button" class="btn btn-success">Order now</button>
+                        <button type="submit" class="btn btn-success" name ="order" id ="order">Order now</button>
                         <button type="button" class="btn btn-warning" style ="padding: 3% 2%"><a href="index.php">Think again</a></button>
                     </div>
                 </div>
