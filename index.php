@@ -50,7 +50,7 @@ if (isset($_POST['add'])){
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Shopping Cart</title>
+    <title>Coffee Menu</title>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
@@ -80,7 +80,7 @@ if (isset($_POST['add'])){
                     <a href="index.html"><i class="fa fa-fw fa-home"></i>Homepage</a>
                 </li>
                 <li class="active-page">
-                    <a href ="http://test69.atwebpages.com/index.php"><i class="fa fa-fw fa-coffee"></i>Product</a>
+                    <a href ="index.php"><i class="fa fa-fw fa-coffee"></i>Menu</a>
                 </li>
                 <li>
                     <a href="Aboutus.html"><i class="fa fa-fw fa-envelope"></i>About us</a>
