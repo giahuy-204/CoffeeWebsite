@@ -43,6 +43,10 @@ li a:hover {
     width: 100%;
 } */
 
+.class_container ul li.active-page {
+    background-color: rgb(174, 190, 152);
+}
+
 .avatar_container {
     background-color: rgb(154, 123, 79);
     position: relative;

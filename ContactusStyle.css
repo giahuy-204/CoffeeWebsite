@@ -116,6 +116,10 @@ body {
     display: none;
 }
 
+.class_container ul li.active-page {
+    background-color: rgb(174, 190, 152);
+}
+
 @media screen and (max-width:720px) {
     nav {
         height: 0;
