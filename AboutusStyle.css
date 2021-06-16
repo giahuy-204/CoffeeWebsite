@@ -10,6 +10,10 @@ li {
     float: left;
 }
 
+.class_container ul li.active-page {
+    background-color: rgb(174, 190, 152);
+}
+
 li a {
     display: block;
     color: black;
@@ -42,10 +46,6 @@ li a:hover {
     height: 100%;
     width: 100%;
 } */
-
-.class_container ul li.active-page {
-    background-color: rgb(174, 190, 152);
-}
 
 .avatar_container {
     background-color: rgb(154, 123, 79);
@@ -89,7 +89,7 @@ li a:hover {
     text-align: center;
     border: 1px solid black;
     width: 100%;
-    height: 40px;
+    height: 60px;
     font-family: 'Cormorant Garamond', serif;
 }
 

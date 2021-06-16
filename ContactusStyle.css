@@ -10,6 +10,10 @@ li {
     float: left;
 }
 
+.class_container ul li.active-page {
+    background-color: rgb(174, 190, 152);
+}
+
 li a {
     display: block;
     color: black;
