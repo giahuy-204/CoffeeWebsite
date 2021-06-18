@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	require 'php/CreateDb.php';
+    require_once ("php/CreateDb.php");
 
 	// Add products into the cart table
 	if (isset($_POST['pid'])) {
@@ -12,15 +12,15 @@
 	  $pqty = $_POST['pqty'];
 	  $total_price = $pprice * $pqty;
 
-	  $stmt = $conn->prepare('SELECT product_id FROM cart WHERE product_id=?');
+	  $stmt = $conn->prepare('SELECT id FROM cart WHERE product_id=?');
 	  $stmt->bind_param('s',$pcode);
 	  $stmt->execute();
 	  $res = $stmt->get_result();
 	  $r = $res->fetch_assoc();
-	  $code = $r['product_id'] ?? '';
+	  $code = $r['id'] ?? '';
 
 	  if (!$code) {
-	    $query = $conn->prepare('INSERT INTO cart (product_name,product_price,product_image,qty,total_price,product_code) VALUES (?,?,?,?,?,?)');
+	    $query = $conn->prepare('INSERT INTO cart (id, product_name, product_price) VALUES (?,?,?,?,?,?)');
 	    $query->bind_param('ssssss',$pname,$pprice,$pimage,$pqty,$total_price,$pcode);
 	    $query->execute();
 

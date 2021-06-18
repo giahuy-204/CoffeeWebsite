@@ -1,17 +1,17 @@
 <?php
-	require 'php/CreateDb.php';
+require_once ("php/CreateDb.php");
 
 	$grand_total = 0;
 	$allItems = '';
 	$items = [];
 
-	$sql = "SELECT CONCAT(product_name, '(',qty,')') AS ItemQty, total_price FROM cart";
+	$sql = "SELECT CONCAT(id, product_name, product_price FROM cart";
 	$stmt = $conn->prepare($sql);
 	$stmt->execute();
 	$result = $stmt->get_result();
 	while ($row = $result->fetch_assoc()) {
-	  $grand_total += $row['total'];
-	  $items[] = $row['ItemQty'];
+	  $grand_total += $row['product_price'];
+	  $items[] = $row['ItemQt'];
 	}
 	$allItems = implode(', ', $items);
 ?>
