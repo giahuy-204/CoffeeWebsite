@@ -120,7 +120,7 @@ if (isset($_POST['remove'])){
             window.location = 'index.php';
         } else {
             alert('Order received! Please wait for our confirmation');
-            window.location = 'checkout.php';
+            window.location = 'coffee_order_form.php';
             <?php 
                 foreach ($_SESSION['cart'] as $key => $value){
                     unset($_SESSION['cart'][$key]);          
