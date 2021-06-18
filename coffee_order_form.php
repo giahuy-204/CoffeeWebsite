@@ -6,7 +6,7 @@
 </head>
 <body>
 
-	<img src="https://cfcdn.zulily.com/images/cache/product/1000x1201/179020/zu36820250_main_tm1458056412.jpg" width="98%" height="500px" />
+	<img src="download.png" class="logo">
 
 	<h3>HoHuTa coffee shop</h3>
 	<h4>Online Order Form</h4>
@@ -85,13 +85,7 @@
 				</td>
 			</tr>
 
-			<div>
-
-				<form method="get" action="index.html">
-					<button style="margin-left:auto;margin-right:auto;display:block;margin-top:-3%;padding: 10px;" type="submit" id="get_started">Get started</button>
-				</form>
-
-    		</div>
+			
 
 		</table>
 	</form>

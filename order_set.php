@@ -38,5 +38,13 @@
 
 </footer>
 
+			<div>
+
+				<form method="get" action="index.html">
+					<button  type="submit" id="get_started">Back to HomePage</button>
+				</form>
+
+    		</div>
+
 </body>
 </html>
