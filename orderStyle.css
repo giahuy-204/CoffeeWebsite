@@ -1,0 +1,40 @@
+/* headers */
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 7%;
+}
+
+h3, h4 {
+	text-align: center;
+}
+
+/*Start - table style*/
+table tr td input[type="text"], table tr td input[type="email"] {
+	float: right;
+}
+
+
+#fields {
+	text-align: center;
+}
+
+
+table tr th {
+	text-align: left;
+	padding-left: 10px;
+}
+
+#submit {
+	padding: 8px 15px;
+	margin-top: 10px;
+	background-color: #008060;
+	color: white;
+	font-size: 15px;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+/*End - table style*/
