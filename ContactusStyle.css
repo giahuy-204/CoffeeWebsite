@@ -124,7 +124,7 @@ body {
     background-color: rgb(174, 190, 152);
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:900px) {
     nav {
         height: 0;
         width: 100%;
