@@ -21,11 +21,8 @@ $db = new CreateDb("3855137_hyu1", "producttb");
 		echo "<p>Dear <strong>" . $_POST['name'] . "</strong>, your order has been set.";
 			echo "<br> We well contact you soon.";
 		echo "</p>";
-		
-		foreach ($_SESSION['cart'] as $key => $value){
-			unset($_SESSION['cart'][$key]);          
-		}
 	}
+
 	
 
 	echo "<br>";
@@ -49,6 +46,16 @@ if (isset($_SESSION['cart'])){
 }
 
 ?>
+
+
+<script type="text/javascript">
+    document.getElementById("get_started").addEventListener("click", function() {
+		<?php
+		foreach ($_SESSION['cart'] as $key => $value){
+			unset($_SESSION['cart'][$key]);
+    };
+	?>
+</script>
 
 <!-- Footer -->
 <footer>
