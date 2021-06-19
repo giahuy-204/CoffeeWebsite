@@ -121,12 +121,6 @@ if (isset($_POST['remove'])){
         } else {
             alert('Order received! Please wait for our confirmation');
             window.location = 'coffee_order_form.php';
-            <?php 
-                foreach ($_SESSION['cart'] as $key => $value){
-                    unset($_SESSION['cart'][$key]);          
-                }
-        
-            ?>
         }
     });
 </script>
