@@ -116,7 +116,7 @@ body {
     display: none;
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:0px) {
     nav {
         height: 0;
         width: 50%;
@@ -131,9 +131,6 @@ body {
         font-size: 1.4rem;
     }
     .nav-toggle {
-        display: block;
-    }
-    .container {
         display: block;
     }
 }
