@@ -116,7 +116,7 @@ body {
     display: none;
 }
 
-@media screen and (max-width:726px) {
+@media screen and (max-width:0px) {
     nav {
         height: 0;
         width: 50%;
