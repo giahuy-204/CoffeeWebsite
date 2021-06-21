@@ -41,7 +41,7 @@
             <!--forget-and-sign-up-btn-->
             <div class="form-btns">
                 <a href="#" class="forget">Forget Your Password?</a>
-                <a href="javascript:void(0);" class="sign-up-btn">Create Account</a>
+                <a href="registerform.html" class="sign-up-btn">Create Account</a>
             </div>
         </div>
 
@@ -51,10 +51,6 @@
         /*---For Login and Sign-up----------------------------*/
         $(document).on('click', '.user,.already-account', function() {
             $('.form').addClass('login-active').removeClass('sign-up-active')
-        });
-
-        $(document).on('click', '.sign-up-btn', function() {
-            window.location = 'registerform.html';
         });
 
         $(document).on('click', '.form-cancel', function() {
