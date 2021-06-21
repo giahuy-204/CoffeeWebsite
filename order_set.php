@@ -2,7 +2,7 @@
 
 session_start();
 
-require_once ("php/CreateDb.php");
+require_once ("php/connect_menu.php");
 require_once ("php/order_component.php");
 
 $db = new CreateDb("3855137_hyu1", "producttb");
