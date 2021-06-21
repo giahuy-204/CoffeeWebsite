@@ -119,7 +119,7 @@ if (isset($_POST['remove'])){
             alert('Please add some product before purchasing!');
             window.location = 'index.php';
         } else {
-            alert('Order received! Please wait for our confirmation');
+            alert('Order received! Please fill in this order form');
             window.location = 'coffee_order_form.php';
         }
     });

@@ -52,11 +52,7 @@ function cartElement($productimg, $productname, $productprice, $productid){
                                 <button type=\"submit\" class=\"btn btn-danger mx-2\" name=\"remove\">Remove</button>
                             </div>
                             <div class=\"col-md-3 py-5\">
-                                <div>
-                                    <button type=\"button\" class=\"btn bg-light border rounded-circle\"><i class=\"fas fa-minus\"></i></button>
-                                    <input type=\"text\" value=\"1\" class=\"form-control w-25 d-inline\">
-                                    <button type=\"button\" class=\"btn bg-light border rounded-circle\"><i class=\"fas fa-plus\"></i></button>
-                                </div>
+                               
                             </div>
                         </div>
                     </div>

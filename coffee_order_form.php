@@ -11,10 +11,8 @@
 	<h3>HoHuTa coffee shop</h3>
 	<h4>Online Order Form</h4>
 
-	<!-- Pizza Delivery Form -->
 	<form method="POST" action="order_set.php">
 		
-		<!-- Data inside table -->
 		<table align="center" cellpadding="5">
 			<tr>
 				<td>
@@ -61,7 +59,7 @@
 			<!-- Delivery Time -->
 			<tr>
 				<td>
-					<label>Preffered Delivery Time: </label>
+					<label>Preferred Delivery Time: </label>
 				</td>
 				<td colspan="2">
 					<input type="time" name="delivery_time" id="delivery_time">
