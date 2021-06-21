@@ -30,6 +30,7 @@ $db = new CreateDb("3855137_hyu1", "producttb");
 </head>
 <body>
 
+
 	
 <?php 
 	// check for submit button 
@@ -40,6 +41,9 @@ $db = new CreateDb("3855137_hyu1", "producttb");
 	}
 	echo "<br>";
 
+	echo "<h3 style='text-align:center'>Order Information</h3>";
+
+	echo "<br>";
 
 	$total = 0;
 	if (isset($_SESSION['cart'])){

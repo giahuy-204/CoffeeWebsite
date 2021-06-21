@@ -36,7 +36,7 @@ if (isset($_POST['remove'])){
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menustyle.css">
 </head>
 <body class="bg-brown">
 
@@ -103,7 +103,7 @@ if (isset($_POST['remove'])){
                     </div>
                     <div class="col-md-6">
                         <button type="submit" class="btn btn-success" name ="order" id ="order">Order now</button>
-                        <button type="button" class="btn btn-warning" style ="padding: 3% 2%"><a href="index.php">Think again</a></button>
+                        <button type="button" class="btn btn-warning" style ="padding: 3% 2%"><a href="menu.php">Think again</a></button>
                     </div>
                 </div>
             </div>
@@ -117,7 +117,7 @@ if (isset($_POST['remove'])){
     document.getElementById("order").addEventListener("click", function() {
         if (total == 0) {
             alert('Please add some product before purchasing!');
-            window.location = 'index.php';
+            window.location = 'menu.php';
         } else {
             alert('Order received! Please fill in this order form');
             window.location = 'coffee_order_form.php';
