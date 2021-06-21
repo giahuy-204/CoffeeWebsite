@@ -19,7 +19,7 @@
 					<!-- Name -->
 					<p>
 						<label>*Name: </label>
-						<input type="text" name="name" id="name">
+						<input type="text" name="name" id="name" required>
 					</p>
 
 					<!-- Email -->
@@ -31,26 +31,26 @@
 					<!-- Address -->
 					<p>
 						<label>*Address: </label>
-						<input type="text" name="address" id="address">
+						<input type="text" name="address" id="address" required>
 					</p>	
 				</td>
 				<td colspan="2">
 					<!-- Telephone -->
 					<p>
 						<label>*Phone: </label>
-						<input type="text" name="tel" id="tel">
+						<input type="text" name="tel" id="tel" required>
 					</p>
 
 					<!-- City -->
 					<p>
 						<label>*City: </label>
-						<input type="text" name="city" id="city">
+						<input type="text" name="city" id="city" required>
 					</p>
 
 					<!-- District -->
 					<p>
 						<label>*District: </label>
-						<input type="text" name="dis" id="dis">
+						<input type="text" name="dis" id="dis" required>
 					</p>
 				</td>
 			</tr>
@@ -62,7 +62,7 @@
 					<label>Preferred Delivery Time: </label>
 				</td>
 				<td colspan="2">
-					<input type="time" name="delivery_time" id="delivery_time">
+					<input type="time" name="delivery_time" id="delivery_time" required>
 				</td>
 			</tr>
 
