@@ -20,4 +20,6 @@
 		$stmt->close();
 		$conn->close();
 	}
+
+	header("Refresh:0; url=index.html");
 ?>
