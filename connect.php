@@ -21,5 +21,5 @@
 		$conn->close();
 	}
 
-	header("Refresh:0; url=index.html");
+	header("Refresh:1; url=index.html");
 ?>
