@@ -15,7 +15,7 @@ error_log( 'ID:         ' . $product_id);
 error_log( print_r($_POST, true) );
 
 
-if (!is_null($employee_id))
+if (!is_null($product_id))
 {
     $sql = "DELETE FROM producttb WHERE id='$product_id'";
 
