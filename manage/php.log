@@ -1,0 +1,1468 @@
+[28-May-2021 04:00:46 UTC] <p>ID: -1</p>
+[28-May-2021 04:00:46 UTC] <p>Salary: </p>
+[28-May-2021 04:01:22 UTC] <p>ID: 1</p>
+[28-May-2021 04:01:22 UTC] <p>Salary: 2323</p>
+[28-May-2021 04:01:25 UTC] <p>ID: 2</p>
+[28-May-2021 04:01:25 UTC] <p>Salary: 2323</p>
+[28-May-2021 04:01:28 UTC] <p>ID: 2</p>
+[28-May-2021 04:01:28 UTC] <p>Salary: 14</p>
+[28-May-2021 04:01:30 UTC] <p>ID: 1</p>
+[28-May-2021 04:01:30 UTC] <p>Salary: 15</p>
+[28-May-2021 04:03:18 UTC] <p>ID: 1</p>
+[28-May-2021 04:03:18 UTC] <p>Salary: 151</p>
+[28-May-2021 04:09:55 UTC] <p>ID: 1</p>
+[28-May-2021 04:09:55 UTC] <p>Salary: 696</p>
+[06-Jun-2021 16:09:22 UTC] Connected!
+[06-Jun-2021 16:09:22 UTC] ID:         
+[06-Jun-2021 16:09:22 UTC] Array
+(
+)
+
+[06-Jun-2021 16:09:53 UTC] Connected!
+[06-Jun-2021 16:10:18 UTC] Connected!
+[06-Jun-2021 16:10:18 UTC] Title:      
+[06-Jun-2021 16:10:18 UTC] First name: 
+[06-Jun-2021 16:10:18 UTC] Last name:  
+[06-Jun-2021 16:10:18 UTC] Job:        
+[06-Jun-2021 16:10:18 UTC] Salary:     
+[06-Jun-2021 16:10:18 UTC] Array
+(
+)
+
+[06-Jun-2021 16:10:34 UTC] Connected!
+[06-Jun-2021 16:10:34 UTC] <p>ID: <p>
+[06-Jun-2021 16:10:34 UTC] <p>Salary: <p>
+[06-Jun-2021 16:12:25 UTC] Connected!
+[06-Jun-2021 16:20:47 UTC] Connected!
+[06-Jun-2021 16:31:31 UTC] Connected!
+[06-Jun-2021 16:36:06 UTC] Connected!
+[06-Jun-2021 16:37:48 UTC] Connected!
+[06-Jun-2021 16:37:48 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[06-Jun-2021 16:37:48 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[06-Jun-2021 16:38:02 UTC] Connected!
+[06-Jun-2021 16:38:02 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[06-Jun-2021 16:38:02 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[06-Jun-2021 16:38:11 UTC] Connected!
+[06-Jun-2021 16:38:11 UTC] <p>ID: 1<p>
+[06-Jun-2021 16:38:11 UTC] <p>Salary: 6969<p>
+[06-Jun-2021 16:38:12 UTC] Connected!
+[06-Jun-2021 16:38:12 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[06-Jun-2021 16:38:12 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[06-Jun-2021 16:38:13 UTC] Connected!
+[06-Jun-2021 16:38:13 UTC] <p>ID: 1<p>
+[06-Jun-2021 16:38:13 UTC] <p>Salary: 6969<p>
+[06-Jun-2021 16:38:13 UTC] Connected!
+[06-Jun-2021 16:38:13 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[06-Jun-2021 16:38:13 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[06-Jun-2021 16:38:14 UTC] Connected!
+[06-Jun-2021 16:38:14 UTC] <p>ID: 1<p>
+[06-Jun-2021 16:38:14 UTC] <p>Salary: 6969<p>
+[06-Jun-2021 16:38:14 UTC] Connected!
+[06-Jun-2021 16:38:14 UTC] <p>ID: 1<p>
+[06-Jun-2021 16:38:14 UTC] <p>Salary: 6969<p>
+[06-Jun-2021 16:38:14 UTC] Connected!
+[06-Jun-2021 16:38:14 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[06-Jun-2021 16:38:14 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[06-Jun-2021 16:38:14 UTC] Connected!
+[06-Jun-2021 16:38:14 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[06-Jun-2021 16:38:14 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[06-Jun-2021 16:38:25 UTC] Connected!
+[06-Jun-2021 16:38:25 UTC] Title:      Ms
+[06-Jun-2021 16:38:25 UTC] First name: Đặng Văn
+[06-Jun-2021 16:38:25 UTC] Last name:  Huy
+[06-Jun-2021 16:38:25 UTC] Job:        haha
+[06-Jun-2021 16:38:25 UTC] Salary:     666
+[06-Jun-2021 16:38:25 UTC] Array
+(
+    [employee_title] => Ms
+    [employee_first_name] => Đặng Văn
+    [employee_last_name] => Huy
+    [employee_job] => haha
+    [employee_salary] => 666
+)
+
+[06-Jun-2021 16:38:25 UTC] sql: INSERT INTO `employees` (`id`, `title`, `first_name`, `last_name`, `job`, `salary`) VALUES (NULL, 'Ms', 'Đặng Văn', 'Huy', 'haha', '666');
+[06-Jun-2021 16:38:25 UTC] Connected!
+[06-Jun-2021 16:38:25 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[06-Jun-2021 16:38:25 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[06-Jun-2021 16:38:29 UTC] Connected!
+[06-Jun-2021 16:38:29 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[06-Jun-2021 16:38:29 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[06-Jun-2021 16:38:44 UTC] Connected!
+[06-Jun-2021 16:38:44 UTC] ID:         2
+[06-Jun-2021 16:38:44 UTC] Array
+(
+    [employee_id] => 2
+)
+
+[06-Jun-2021 16:38:44 UTC] sql: DELETE FROM employees WHERE id='2'
+[06-Jun-2021 16:38:44 UTC] Connected!
+[06-Jun-2021 16:38:44 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[06-Jun-2021 16:38:44 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[06-Jun-2021 16:42:15 UTC] Connected!
+[06-Jun-2021 16:42:15 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[06-Jun-2021 16:42:15 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[06-Jun-2021 16:42:21 UTC] Connected!
+[06-Jun-2021 16:42:21 UTC] Title:      
+[06-Jun-2021 16:42:21 UTC] First name: 
+[06-Jun-2021 16:42:21 UTC] Last name:  
+[06-Jun-2021 16:42:21 UTC] Job:        
+[06-Jun-2021 16:42:21 UTC] Salary:     
+[06-Jun-2021 16:42:21 UTC] Array
+(
+)
+
+[06-Jun-2021 16:42:21 UTC] Connected!
+[06-Jun-2021 16:42:21 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[06-Jun-2021 16:42:21 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[06-Jun-2021 16:44:51 UTC] Connected!
+[06-Jun-2021 16:44:51 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[06-Jun-2021 16:44:51 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[06-Jun-2021 16:44:59 UTC] Connected!
+[06-Jun-2021 16:44:59 UTC] Title:      
+[06-Jun-2021 16:44:59 UTC] First name: 
+[06-Jun-2021 16:44:59 UTC] Last name:  
+[06-Jun-2021 16:44:59 UTC] Job:        
+[06-Jun-2021 16:44:59 UTC] Salary:     
+[06-Jun-2021 16:44:59 UTC] Array
+(
+)
+
+[06-Jun-2021 16:44:59 UTC] Connected!
+[06-Jun-2021 16:44:59 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[06-Jun-2021 16:44:59 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[06-Jun-2021 16:45:03 UTC] Connected!
+[06-Jun-2021 16:45:03 UTC] ID:         1
+[06-Jun-2021 16:45:03 UTC] Array
+(
+    [employee_id] => 1
+)
+
+[06-Jun-2021 16:45:03 UTC] sql: DELETE FROM employees WHERE id='1'
+[06-Jun-2021 16:45:03 UTC] Connected!
+[06-Jun-2021 16:45:03 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[06-Jun-2021 16:45:03 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[06-Jun-2021 16:45:08 UTC] Connected!
+[06-Jun-2021 16:45:08 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[06-Jun-2021 16:45:08 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[07-Jun-2021 01:54:35 UTC] Connected!
+[07-Jun-2021 01:54:35 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[07-Jun-2021 01:54:35 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[07-Jun-2021 01:54:45 UTC] Connected!
+[07-Jun-2021 01:54:45 UTC] Title:      
+[07-Jun-2021 01:54:45 UTC] First name: 
+[07-Jun-2021 01:54:45 UTC] Last name:  
+[07-Jun-2021 01:54:45 UTC] Job:        
+[07-Jun-2021 01:54:45 UTC] Salary:     
+[07-Jun-2021 01:54:45 UTC] Array
+(
+)
+
+[07-Jun-2021 01:54:45 UTC] Connected!
+[07-Jun-2021 01:54:45 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[07-Jun-2021 01:54:45 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[07-Jun-2021 01:54:49 UTC] Connected!
+[07-Jun-2021 01:54:49 UTC] Title:      
+[07-Jun-2021 01:54:49 UTC] First name: 
+[07-Jun-2021 01:54:49 UTC] Last name:  
+[07-Jun-2021 01:54:49 UTC] Job:        
+[07-Jun-2021 01:54:49 UTC] Salary:     
+[07-Jun-2021 01:54:49 UTC] Array
+(
+)
+
+[07-Jun-2021 01:54:50 UTC] Connected!
+[07-Jun-2021 01:54:50 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[07-Jun-2021 01:54:50 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[07-Jun-2021 01:54:52 UTC] Connected!
+[07-Jun-2021 01:54:52 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[07-Jun-2021 01:54:52 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[07-Jun-2021 01:55:49 UTC] Connected!
+[07-Jun-2021 01:55:49 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[07-Jun-2021 01:55:49 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[07-Jun-2021 01:55:57 UTC] Connected!
+[07-Jun-2021 01:55:57 UTC] Title:      
+[07-Jun-2021 01:55:57 UTC] First name: 
+[07-Jun-2021 01:55:57 UTC] Last name:  
+[07-Jun-2021 01:55:57 UTC] Job:        
+[07-Jun-2021 01:55:57 UTC] Salary:     
+[07-Jun-2021 01:55:57 UTC] Array
+(
+)
+
+[07-Jun-2021 01:55:57 UTC] Connected!
+[07-Jun-2021 01:55:57 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[07-Jun-2021 01:55:57 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[07-Jun-2021 01:55:57 UTC] Connected!
+[07-Jun-2021 01:55:57 UTC] Title:      
+[07-Jun-2021 01:55:57 UTC] First name: 
+[07-Jun-2021 01:55:57 UTC] Last name:  
+[07-Jun-2021 01:55:57 UTC] Job:        
+[07-Jun-2021 01:55:57 UTC] Salary:     
+[07-Jun-2021 01:55:57 UTC] Array
+(
+)
+
+[07-Jun-2021 01:55:57 UTC] Connected!
+[07-Jun-2021 01:55:57 UTC] Title:      
+[07-Jun-2021 01:55:57 UTC] First name: 
+[07-Jun-2021 01:55:57 UTC] Last name:  
+[07-Jun-2021 01:55:57 UTC] Job:        
+[07-Jun-2021 01:55:57 UTC] Salary:     
+[07-Jun-2021 01:55:57 UTC] Array
+(
+)
+
+[07-Jun-2021 01:55:57 UTC] Connected!
+[07-Jun-2021 01:55:58 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[07-Jun-2021 01:55:58 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[07-Jun-2021 01:55:58 UTC] Connected!
+[07-Jun-2021 01:55:58 UTC] Title:      
+[07-Jun-2021 01:55:58 UTC] First name: 
+[07-Jun-2021 01:55:58 UTC] Last name:  
+[07-Jun-2021 01:55:58 UTC] Job:        
+[07-Jun-2021 01:55:58 UTC] Salary:     
+[07-Jun-2021 01:55:58 UTC] Array
+(
+)
+
+[07-Jun-2021 01:55:58 UTC] Connected!
+[07-Jun-2021 01:55:58 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[07-Jun-2021 01:55:58 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[07-Jun-2021 01:55:58 UTC] Connected!
+[07-Jun-2021 01:55:58 UTC] Title:      
+[07-Jun-2021 01:55:58 UTC] First name: 
+[07-Jun-2021 01:55:58 UTC] Last name:  
+[07-Jun-2021 01:55:58 UTC] Job:        
+[07-Jun-2021 01:55:58 UTC] Salary:     
+[07-Jun-2021 01:55:58 UTC] Array
+(
+)
+
+[07-Jun-2021 01:55:58 UTC] Connected!
+[07-Jun-2021 01:55:58 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[07-Jun-2021 01:55:58 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[07-Jun-2021 01:55:58 UTC] Connected!
+[07-Jun-2021 01:55:58 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[07-Jun-2021 01:55:58 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[07-Jun-2021 01:55:58 UTC] Connected!
+[07-Jun-2021 01:55:58 UTC] Title:      
+[07-Jun-2021 01:55:58 UTC] First name: 
+[07-Jun-2021 01:55:58 UTC] Last name:  
+[07-Jun-2021 01:55:58 UTC] Job:        
+[07-Jun-2021 01:55:58 UTC] Salary:     
+[07-Jun-2021 01:55:58 UTC] Array
+(
+)
+
+[07-Jun-2021 01:55:59 UTC] Connected!
+[07-Jun-2021 01:55:59 UTC] Title:      
+[07-Jun-2021 01:55:59 UTC] First name: 
+[07-Jun-2021 01:55:59 UTC] Last name:  
+[07-Jun-2021 01:55:59 UTC] Job:        
+[07-Jun-2021 01:55:59 UTC] Salary:     
+[07-Jun-2021 01:55:59 UTC] Array
+(
+)
+
+[07-Jun-2021 01:55:59 UTC] Connected!
+[07-Jun-2021 01:55:59 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[07-Jun-2021 01:55:59 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[07-Jun-2021 01:55:59 UTC] Connected!
+[07-Jun-2021 01:55:59 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[07-Jun-2021 01:55:59 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[07-Jun-2021 01:56:11 UTC] Connected!
+[07-Jun-2021 01:56:11 UTC] Title:      
+[07-Jun-2021 01:56:11 UTC] First name: 
+[07-Jun-2021 01:56:11 UTC] Last name:  
+[07-Jun-2021 01:56:11 UTC] Job:        
+[07-Jun-2021 01:56:11 UTC] Salary:     
+[07-Jun-2021 01:56:11 UTC] Array
+(
+)
+
+[07-Jun-2021 01:56:11 UTC] Connected!
+[07-Jun-2021 01:56:11 UTC] Title:      
+[07-Jun-2021 01:56:11 UTC] First name: 
+[07-Jun-2021 01:56:11 UTC] Last name:  
+[07-Jun-2021 01:56:11 UTC] Job:        
+[07-Jun-2021 01:56:11 UTC] Salary:     
+[07-Jun-2021 01:56:11 UTC] Array
+(
+)
+
+[07-Jun-2021 01:56:11 UTC] Connected!
+[07-Jun-2021 01:56:11 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[07-Jun-2021 01:56:11 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[07-Jun-2021 01:56:12 UTC] Connected!
+[07-Jun-2021 01:56:12 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[07-Jun-2021 01:56:12 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[07-Jun-2021 01:57:41 UTC] Connected!
+[07-Jun-2021 01:57:41 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[07-Jun-2021 01:57:41 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[07-Jun-2021 01:57:49 UTC] Connected!
+[07-Jun-2021 01:57:49 UTC] Title:      Ms
+[07-Jun-2021 01:57:49 UTC] First name: Đặng Văn
+[07-Jun-2021 01:57:49 UTC] Last name:  Huy
+[07-Jun-2021 01:57:49 UTC] Job:        Engineer
+[07-Jun-2021 01:57:49 UTC] Salary:     69
+[07-Jun-2021 01:57:49 UTC] Array
+(
+    [employee_title] => Ms
+    [employee_firstname] => Đặng Văn
+    [employee_lastname] => Huy
+    [employee_job] => Engineer
+    [employee_salary] => 69
+)
+
+[07-Jun-2021 01:57:49 UTC] sql: INSERT INTO `Employees` (`id`, `title`, `firstname`, `lastname`, `job`, `salary`) VALUES (NULL, 'Ms', 'Đặng Văn', 'Huy', 'Engineer', '69');
+[07-Jun-2021 01:57:50 UTC] Connected!
+[07-Jun-2021 01:57:50 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[07-Jun-2021 01:57:50 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[07-Jun-2021 01:57:50 UTC] Array
+(
+    [id] => 3
+    [title] => Ms
+    [firstname] => Đặng Văn
+    [lastname] => Huy
+    [job] => Engineer
+    [salary] => 69
+    [delete] => <button class="btn btn-danger" value="3">Delete</button>
+)
+
+[07-Jun-2021 01:58:57 UTC] Connected!
+[07-Jun-2021 01:58:57 UTC] ID:         3
+[07-Jun-2021 01:58:57 UTC] Array
+(
+    [employee_id] => 3
+)
+
+[07-Jun-2021 01:58:57 UTC] sql: DELETE FROM employees WHERE id='3'
+[07-Jun-2021 01:58:57 UTC] Connected!
+[07-Jun-2021 01:58:57 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[07-Jun-2021 01:58:57 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[07-Jun-2021 01:58:57 UTC] Array
+(
+    [id] => 3
+    [title] => Ms
+    [firstname] => Đặng Văn
+    [lastname] => Huy
+    [job] => Engineer
+    [salary] => 69
+    [delete] => <button class="btn btn-danger" value="3">Delete</button>
+)
+
+[07-Jun-2021 01:59:14 UTC] Connected!
+[07-Jun-2021 01:59:14 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[07-Jun-2021 01:59:14 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[07-Jun-2021 01:59:14 UTC] Array
+(
+    [id] => 3
+    [title] => Ms
+    [firstname] => Đặng Văn
+    [lastname] => Huy
+    [job] => Engineer
+    [salary] => 69
+    [delete] => <button class="btn btn-danger" value="3">Delete</button>
+)
+
+[07-Jun-2021 01:59:20 UTC] Connected!
+[07-Jun-2021 01:59:20 UTC] <p>ID: 3<p>
+[07-Jun-2021 01:59:20 UTC] <p>Salary: 50<p>
+[07-Jun-2021 01:59:20 UTC] Connected!
+[07-Jun-2021 01:59:20 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 60.00
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[07-Jun-2021 01:59:20 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[07-Jun-2021 01:59:20 UTC] Array
+(
+    [id] => 3
+    [title] => Ms
+    [firstname] => Đặng Văn
+    [lastname] => Huy
+    [job] => Engineer
+    [salary] => 50
+    [delete] => <button class="btn btn-danger" value="3">Delete</button>
+)
+
+[07-Jun-2021 01:59:21 UTC] Connected!
+[07-Jun-2021 01:59:21 UTC] <p>ID: 1<p>
+[07-Jun-2021 01:59:21 UTC] <p>Salary: 50<p>
+[07-Jun-2021 01:59:21 UTC] Connected!
+[07-Jun-2021 01:59:21 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 50
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[07-Jun-2021 01:59:21 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[07-Jun-2021 01:59:21 UTC] Array
+(
+    [id] => 3
+    [title] => Ms
+    [firstname] => Đặng Văn
+    [lastname] => Huy
+    [job] => Engineer
+    [salary] => 50
+    [delete] => <button class="btn btn-danger" value="3">Delete</button>
+)
+
+[07-Jun-2021 02:00:20 UTC] Connected!
+[07-Jun-2021 02:00:20 UTC] Array
+(
+    [id] => 1
+    [title] => One
+    [firstname] => Huy
+    [lastname] => Dang
+    [job] => Engineer
+    [salary] => 50
+    [delete] => <button class="btn btn-danger" value="1">Delete</button>
+)
+
+[07-Jun-2021 02:00:20 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[07-Jun-2021 02:00:20 UTC] Array
+(
+    [id] => 3
+    [title] => Ms
+    [firstname] => Đặng Văn
+    [lastname] => Huy
+    [job] => Engineer
+    [salary] => 50
+    [delete] => <button class="btn btn-danger" value="3">Delete</button>
+)
+
+[07-Jun-2021 02:00:23 UTC] Connected!
+[07-Jun-2021 02:00:23 UTC] ID:         1
+[07-Jun-2021 02:00:23 UTC] Array
+(
+    [employee_id] => 1
+)
+
+[07-Jun-2021 02:00:23 UTC] sql: DELETE FROM Employees WHERE id='1'
+[07-Jun-2021 02:00:23 UTC] Connected!
+[07-Jun-2021 02:00:23 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[07-Jun-2021 02:00:23 UTC] Array
+(
+    [id] => 3
+    [title] => Ms
+    [firstname] => Đặng Văn
+    [lastname] => Huy
+    [job] => Engineer
+    [salary] => 50
+    [delete] => <button class="btn btn-danger" value="3">Delete</button>
+)
+
+[22-Jun-2021 03:27:50 UTC] Connected!
+[22-Jun-2021 03:27:52 UTC] Connected!
+[22-Jun-2021 03:28:00 UTC] Connected!
+[22-Jun-2021 03:28:00 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[22-Jun-2021 03:28:00 UTC] Array
+(
+    [id] => 3
+    [title] => Ms
+    [firstname] => Đặng Văn
+    [lastname] => Huy
+    [job] => Engineer
+    [salary] => 50
+    [delete] => <button class="btn btn-danger" value="3">Delete</button>
+)
+
+[22-Jun-2021 03:46:44 UTC] Connected!
+[22-Jun-2021 03:46:44 UTC] Title:      Ms
+[22-Jun-2021 03:46:44 UTC] First name: Đặng
+[22-Jun-2021 03:46:44 UTC] Last name:  Huy
+[22-Jun-2021 03:46:44 UTC] Job:        Tro he
+[22-Jun-2021 03:46:44 UTC] Salary:     6969
+[22-Jun-2021 03:46:44 UTC] Array
+(
+    [employee_title] => Ms
+    [employee_firstname] => Đặng
+    [employee_lastname] => Huy
+    [employee_job] => Tro he
+    [employee_salary] => 6969
+)
+
+[22-Jun-2021 03:46:44 UTC] sql: INSERT INTO `Employees` (`id`, `title`, `firstname`, `lastname`, `job`, `salary`) VALUES (NULL, 'Ms', 'Đặng', 'Huy', 'Tro he', '6969');
+[22-Jun-2021 03:46:44 UTC] Connected!
+[22-Jun-2021 03:46:44 UTC] Array
+(
+    [id] => 4
+    [title] => Ms
+    [firstname] => Đặng
+    [lastname] => Huy
+    [job] => Tro he
+    [salary] => 6969
+    [delete] => <button class="btn btn-danger" value="4">Delete</button>
+)
+
+[22-Jun-2021 03:46:44 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[22-Jun-2021 03:46:44 UTC] Array
+(
+    [id] => 3
+    [title] => Ms
+    [firstname] => Đặng Văn
+    [lastname] => Huy
+    [job] => Engineer
+    [salary] => 50
+    [delete] => <button class="btn btn-danger" value="3">Delete</button>
+)
+
+[22-Jun-2021 03:46:47 UTC] Connected!
+[22-Jun-2021 03:46:47 UTC] Title:      Ms
+[22-Jun-2021 03:46:47 UTC] First name: Đặng
+[22-Jun-2021 03:46:47 UTC] Last name:  Huy
+[22-Jun-2021 03:46:47 UTC] Job:        Tro he
+[22-Jun-2021 03:46:47 UTC] Salary:     6969
+[22-Jun-2021 03:46:47 UTC] Array
+(
+    [employee_title] => Ms
+    [employee_firstname] => Đặng
+    [employee_lastname] => Huy
+    [employee_job] => Tro he
+    [employee_salary] => 6969
+)
+
+[22-Jun-2021 03:46:47 UTC] sql: INSERT INTO `Employees` (`id`, `title`, `firstname`, `lastname`, `job`, `salary`) VALUES (NULL, 'Ms', 'Đặng', 'Huy', 'Tro he', '6969');
+[22-Jun-2021 03:46:47 UTC] Connected!
+[22-Jun-2021 03:46:47 UTC] Array
+(
+    [id] => 4
+    [title] => Ms
+    [firstname] => Đặng
+    [lastname] => Huy
+    [job] => Tro he
+    [salary] => 6969
+    [delete] => <button class="btn btn-danger" value="4">Delete</button>
+)
+
+[22-Jun-2021 03:46:47 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[22-Jun-2021 03:46:47 UTC] Array
+(
+    [id] => 3
+    [title] => Ms
+    [firstname] => Đặng Văn
+    [lastname] => Huy
+    [job] => Engineer
+    [salary] => 50
+    [delete] => <button class="btn btn-danger" value="3">Delete</button>
+)
+
+[22-Jun-2021 03:46:47 UTC] Array
+(
+    [id] => 5
+    [title] => Ms
+    [firstname] => Đặng
+    [lastname] => Huy
+    [job] => Tro he
+    [salary] => 6969
+    [delete] => <button class="btn btn-danger" value="5">Delete</button>
+)
+
+[22-Jun-2021 03:46:48 UTC] Connected!
+[22-Jun-2021 03:46:48 UTC] <p>ID: 4<p>
+[22-Jun-2021 03:46:48 UTC] <p>Salary: <p>
+[22-Jun-2021 03:46:49 UTC] Connected!
+[22-Jun-2021 03:46:49 UTC] Array
+(
+    [id] => 4
+    [title] => Ms
+    [firstname] => Đặng
+    [lastname] => Huy
+    [job] => Tro he
+    [salary] => 
+    [delete] => <button class="btn btn-danger" value="4">Delete</button>
+)
+
+[22-Jun-2021 03:46:49 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[22-Jun-2021 03:46:49 UTC] Array
+(
+    [id] => 3
+    [title] => Ms
+    [firstname] => Đặng Văn
+    [lastname] => Huy
+    [job] => Engineer
+    [salary] => 50
+    [delete] => <button class="btn btn-danger" value="3">Delete</button>
+)
+
+[22-Jun-2021 03:46:49 UTC] Array
+(
+    [id] => 5
+    [title] => Ms
+    [firstname] => Đặng
+    [lastname] => Huy
+    [job] => Tro he
+    [salary] => 6969
+    [delete] => <button class="btn btn-danger" value="5">Delete</button>
+)
+
+[22-Jun-2021 08:16:50 UTC] Connected!
+[22-Jun-2021 08:16:50 UTC] Array
+(
+    [id] => 4
+    [title] => Ms
+    [firstname] => Đặng
+    [lastname] => Huy
+    [job] => Tro he
+    [salary] => 
+    [delete] => <button class="btn btn-danger" value="4">Delete</button>
+)
+
+[22-Jun-2021 08:16:50 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[22-Jun-2021 08:16:50 UTC] Array
+(
+    [id] => 3
+    [title] => Ms
+    [firstname] => Đặng Văn
+    [lastname] => Huy
+    [job] => Engineer
+    [salary] => 50
+    [delete] => <button class="btn btn-danger" value="3">Delete</button>
+)
+
+[22-Jun-2021 08:16:50 UTC] Array
+(
+    [id] => 5
+    [title] => Ms
+    [firstname] => Đặng
+    [lastname] => Huy
+    [job] => Tro he
+    [salary] => 6969
+    [delete] => <button class="btn btn-danger" value="5">Delete</button>
+)
+
+[22-Jun-2021 08:19:18 UTC] Connected!
+[22-Jun-2021 08:19:18 UTC] Title:      Mrs
+[22-Jun-2021 08:19:18 UTC] First name: Đặng
+[22-Jun-2021 08:19:18 UTC] Last name:  Huy
+[22-Jun-2021 08:19:18 UTC] Job:        dan` don.
+[22-Jun-2021 08:19:18 UTC] Salary:     9650
+[22-Jun-2021 08:19:18 UTC] Array
+(
+    [employee_title] => Mrs
+    [employee_firstname] => Đặng
+    [employee_lastname] => Huy
+    [employee_job] => dan` don.
+    [employee_salary] => 9650
+)
+
+[22-Jun-2021 08:19:18 UTC] sql: INSERT INTO `Employees` (`id`, `title`, `firstname`, `lastname`, `job`, `salary`) VALUES (NULL, 'Mrs', 'Đặng', 'Huy', 'dan` don.', '9650');
+[22-Jun-2021 08:19:19 UTC] Connected!
+[22-Jun-2021 08:19:19 UTC] Array
+(
+    [id] => 4
+    [title] => Ms
+    [firstname] => Đặng
+    [lastname] => Huy
+    [job] => Tro he
+    [salary] => 
+    [delete] => <button class="btn btn-danger" value="4">Delete</button>
+)
+
+[22-Jun-2021 08:19:19 UTC] Array
+(
+    [id] => 2
+    [title] => Two
+    [firstname] => Dang
+    [lastname] => Huy
+    [job] => Science engineer
+    [salary] => 90.00
+    [delete] => <button class="btn btn-danger" value="2">Delete</button>
+)
+
+[22-Jun-2021 08:19:19 UTC] Array
+(
+    [id] => 3
+    [title] => Ms
+    [firstname] => Đặng Văn
+    [lastname] => Huy
+    [job] => Engineer
+    [salary] => 50
+    [delete] => <button class="btn btn-danger" value="3">Delete</button>
+)
+
+[22-Jun-2021 08:19:19 UTC] Array
+(
+    [id] => 5
+    [title] => Ms
+    [firstname] => Đặng
+    [lastname] => Huy
+    [job] => Tro he
+    [salary] => 6969
+    [delete] => <button class="btn btn-danger" value="5">Delete</button>
+)
+
+[22-Jun-2021 08:19:19 UTC] Array
+(
+    [id] => 6
+    [title] => Mrs
+    [firstname] => Đặng
+    [lastname] => Huy
+    [job] => dan` don.
+    [salary] => 9650
+    [delete] => <button class="btn btn-danger" value="6">Delete</button>
+)
+

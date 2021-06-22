@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- jquery UI js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <!-- jquery UI css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
+
+    <!-- data tables -->
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
+
+    <script type="text/javascript" src="manage/products.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row" style="margin-top: 50px">
+            <div class="col-md-12">
+                <h1>Products</h1>
+                <table id="product-table" class="display nowrap" style="width:100%">
+                    <thead>
+                        <th>Product name</th>
+                        <th>Product price</th>
+                        <th>Product Image</th>
+                        <th>Delete</th>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 50px;">
+
+            <div class="col-md-12">
+                <h1>Price</h1>
+
+                <select id="products"></select>
+                <input type="text" id="price">
+                <button class="btn btn-warning" id="price-save">Save</button>
+            </div>
+        </div>
+
+        <div class="row" style="margin: 50px 0">
+
+            <div class="col-md-12">
+
+                <h1>Add product</h1>
+
+
+                <label>Product name</label><br>
+                <input type="text" id="product-name">
+                <br><br>
+                <label>Product price</label><br>
+                <input type="text" id="product-price">
+                <br><br>
+                <label>Product image</label><br>
+                <input type="text" id="product-image">
+                <br><br>
+                <button class="btn btn-warning" id="add-product">Save</button>
+                <br>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
