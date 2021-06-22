@@ -104,6 +104,15 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <style>
         body{ font: 14px sans-serif; }
         .wrapper{ width: 360px; padding: 20px; }
+        @media screen and (max-width:720px) {
+            div {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                margin-top: -100px;
+                margin-left: -200px;
+            }
+        }
     </style>
 </head>
 <body>
