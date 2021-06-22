@@ -122,7 +122,7 @@ body {
         height: 0;
         width: 100%;
         overflow: hidden;
-        position: fixed;
+        position: absolute;
     }
     li {
         display: block;

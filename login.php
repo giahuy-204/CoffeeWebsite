@@ -100,8 +100,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         @media screen and (max-width:720px) {
             .wrapper{
                 position:absolute;
-                height: X px;
-                width: Y px;
+                height: 1080 px;
+                width: 720 px;
                 left:50%;
                 top:50%;
                 margin-top:- X/2 px;
