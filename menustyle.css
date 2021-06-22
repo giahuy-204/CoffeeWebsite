@@ -89,6 +89,7 @@ body {
 
 #thumbnail {
     display: block;
+    width: 100%;
 }
 
 .nav-toggle {

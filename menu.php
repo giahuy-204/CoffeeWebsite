@@ -5,12 +5,9 @@ session_start();
 require_once ('php/connect_menu.php');
 require_once ('php/component.php');
 
-
-// create instance of Createdb class
 $database = new CreateDb("3855137_hyu1", "producttb");
 
 if (isset($_POST['add'])){
-    /// print_r($_POST['product_id']);
     if(isset($_SESSION['cart'])){
 
         $item_array_id = array_column($_SESSION['cart'], "product_id");
@@ -29,12 +26,10 @@ if (isset($_POST['add'])){
                 'product_id' => $_POST['product_id']
         );
 
-        // Create new session variable
         $_SESSION['cart'][0] = $item_array;
         print_r($_SESSION['cart']);
     }
 }
-
 
 ?>
 
@@ -64,11 +59,11 @@ if (isset($_POST['add'])){
 </head>
 <body style="background-color:#af7c35">
 
-<img id="thumbnail" src="https://i.imgur.com/QHMQohI.jpg?1" width="100%">
+<img id="thumbnail" src="https://i.imgur.com/QHMQohI.jpg?1">
     <div class="class_container">
         <div class="nav-toggle" id="navToggle">
-            <img id="navClosed" class="navIcon" src="https://www.richardmiddleton.me/wp-content/themes/richardcodes/assets/img/hamburger.svg" alt="hamburger menu">
-            <img id="navOpen" class="navIcon hidden" src="https://www.richardmiddleton.me/wp-content/themes/richardcodes/assets/img/close.svg" alt="close hamburger">
+            <img id="navClosed" class="navIcon" src="https://www.richardmiddleton.me/wp-content/themes/richardcodes/assets/img/hamburger.svg" alt="nav closed">
+            <img id="navOpen" class="navIcon hidden" src="https://www.richardmiddleton.me/wp-content/themes/richardcodes/assets/img/close.svg" alt="nav open">
         </div>
         <nav>
             <ul>
@@ -99,11 +94,6 @@ if (isset($_POST['add'])){
             ?>
         </div>
 </div>
-
-
-
-
-
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

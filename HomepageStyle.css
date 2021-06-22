@@ -238,3 +238,9 @@ img {
         display: block;
     }
 }
+
+
+#thumbnail {
+    display: block;
+    width: 100%;
+}
