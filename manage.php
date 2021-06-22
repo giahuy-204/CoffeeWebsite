@@ -31,7 +31,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     
     <?php 
         $page_title = 'Add Product';
-        include 'php/header.php'; 
+        
     ?>
 
     <body>
@@ -39,8 +39,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         <div class="container">
 
             <div class="row" style="margin-top: 50px">
-
-                <?php include 'menu.php'; ?>
 
                 <div class="col-md-12">
 
