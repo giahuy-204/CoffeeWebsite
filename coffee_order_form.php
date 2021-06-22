@@ -1,7 +1,35 @@
+<?php
+
+session_start();
+
+require_once ("php/connect_menu.php");
+require_once ("php/order_component.php");
+
+$db = new CreateDb("3855137_hyu1", "producttb");
+
+$total = 0;
+if (isset($_SESSION['cart'])){
+	$product_id = array_column($_SESSION['cart'], 'product_id');
+
+	$result = $db->getData();
+	while ($row = mysqli_fetch_assoc($result)){
+		foreach ($product_id as $id){
+			if ($row['id'] == $id){
+				cartElement($row['product_image'], $row['product_name'],$row['product_price'], $row['id']);
+				$total = $total + (int)$row['product_price'];
+			}
+		}
+	}
+}else{
+	header("location: menu.php");
+	exit;
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Ordering Coffee</title>
+	<title>Coffee Order Form</title>
 	<link rel="stylesheet" type="text/css" href="orderStyle.css">
 </head>
 <body>
@@ -25,7 +53,7 @@
 					<!-- Email -->
 					<p>
 						<label>*Email: </label>
-						<input type="email" name="email" id="email">
+						<input type="email" name="email" id="email" required>
 					</p>
 
 					<!-- Address -->
@@ -66,10 +94,10 @@
 				</td>
 			</tr>
 
-			<!-- Delivery Instruction -->
+			<!-- Note for items -->
 			<tr>
 				<td>
-					<label>Delivery Instructions: </label>
+					<label>Note For Items: </label>
 				</td>
 				<td colspan="2">
 					<textarea rows="5" cols="30" name="instuctions" id="instuctions"></textarea>
