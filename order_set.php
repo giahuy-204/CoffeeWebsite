@@ -26,7 +26,7 @@ $db = new CreateDb("3855137_hyu1", "producttb");
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menustyle.css">
 </head>
 <body>
 
@@ -81,18 +81,12 @@ $db = new CreateDb("3855137_hyu1", "producttb");
 			<p><strong>Email us: </strong> <a href="mailto:tai.hoan.huy196969@life.edu.vn">tai.hoan.huy196969@life.edu.vn</a></p>
 		</address>
 	</p>
-
-	
-
+	<form method="get" action="index.html">
+            <button style="margin-left:auto;margin-right:auto;display:block;" type="submit" id="back">Back to HomePage</button>
+	</form>
 </footer>
 
-			<div>
-
-				<form method="get" action="index.html">
-					<button  type="submit" id="get_started">Back to HomePage</button>
-				</form>
-
-    		</div>
+			
 
 </body>
 </html>
