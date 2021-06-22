@@ -59,7 +59,7 @@ if (isset($_POST['add'])){
 </head>
 <body style="background-color:#af7c35">
 
-<img id="thumbnail" src="https://i.imgur.com/QHMQohI.jpg?1">
+<img id="thumbnail" src="https://i.imgur.com/QHMQohI.jpg?1" alt = "thumbnail">
     <div class="class_container">
         <div class="nav-toggle" id="navToggle">
             <img id="navClosed" class="navIcon" src="https://www.richardmiddleton.me/wp-content/themes/richardcodes/assets/img/hamburger.svg" alt="nav closed">
