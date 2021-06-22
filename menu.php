@@ -71,7 +71,7 @@ if (isset($_POST['add'])){
                     <a href="index.html"><i class="fa fa-fw fa-home"></i>Homepage</a>
                 </li>
                 <li class="active-page">
-                    <a href ="index.php"><i class="fa fa-fw fa-coffee"></i>Menu</a>
+                    <a href ="menu.php"><i class="fa fa-fw fa-coffee"></i>Menu</a>
                 </li>
                 <li>
                     <a href="Aboutus.html"><i class="fa fa-fw fa-envelope"></i>About us</a>
