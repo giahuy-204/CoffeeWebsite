@@ -106,6 +106,72 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     table.table td .add {
         display: none;
     }
+    #thumbnail {
+    display: block;
+    width: 100%;
+    }
+    .footer-basic {
+    margin-top: 25px;
+    padding: 0px 0;
+    background-color: #ffffff;
+    color: #4b4c4d;
+}
+
+    .footer-basic .copyright {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 23px;
+        color: #aaa;
+        margin-bottom: 0;
+    }
+
+    .nav-toggle {
+        display: none;
+        position: absolute;
+        top: 1.5rem;
+        right: 1rem;
+        cursor: pointer;
+    }
+
+    .nav-toggle img {
+        width: 1.5rem;
+        transition: 300ms all ease;
+    }
+
+    .nav-toggle:hover img {
+        opacity: 0.6;
+    }
+
+    .open {
+        height: 100vh;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .class_container ul li.active-page {
+        background-color: rgb(174, 190, 152);
+    }
+
+    @media screen and (max-width:720px) {
+        nav {
+            height: 0;
+            width: 50%;
+            overflow: hidden;
+        }
+        li {
+            display: block;
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+        li a {
+            font-size: 1.4rem;
+        }
+        .nav-toggle {
+            display: block;
+        }
+    }
 </style>
 <script type="text/javascript">
     $(document).ready(function(){
@@ -193,6 +259,32 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 </script> 
 </head>
 <body>
+    <img id="thumbnail" src="https://i.imgur.com/QHMQohI.jpg?1" alt="thumbnail">
+    <div class="class_container">
+        <div class="nav-toggle" id="navToggle">
+            <img id="navClosed" class="navIcon" src="https://www.richardmiddleton.me/wp-content/themes/richardcodes/assets/img/hamburger.svg" alt="nav closed">
+            <img id="navOpen" class="navIcon hidden" src="https://www.richardmiddleton.me/wp-content/themes/richardcodes/assets/img/close.svg" alt="nav open">
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html"><i class="fa fa-fw fa-home"></i>Homepage</a>
+                </li>
+                <li>
+                    <a href="menu.php"><i class="fa fa-fw fa-coffee"></i>Menu</a>
+                </li>
+                <li>
+                    <a href="Aboutus.html"><i class="fa fa-fw fa-envelope"></i>About us</a>
+                </li>
+                <li>
+                    <a href="Contactus.html"><i class="fa fa-fw fa-user"></i>Contact us</a>
+                </li>
+                <li class="active-page">
+                    <a href="manage.php"><i class="fa fa-cloud-upload" aria-hidden="true"></i>Manage Product</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
     <div class="container"><p><h1 align="center">Manage menu</h1><div id="displaymessage"></div></p>
         <div class="table-wrapper">
             <div class="table-title">
@@ -237,6 +329,11 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             </tbody>
         </table>
     </div>
-</div>     
+</div>   
+<div class="footer-basic">
+        <footer>
+            <p class="copyright">HoHuTa coffee shop © 2018</p>
+        </footer>
+    </div>  
 </body>
 </html> 
