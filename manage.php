@@ -4,8 +4,8 @@ session_start();
  
 // Check if the user is logged in, if not then redirect him to login page
 if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-    header("location: login.php");
-    echo '<script>alert("Please login to use this function")</script>';
+    echo "<script>alert('Please login to use this function!')</script>";
+    echo "<script>window.location = 'login.php'</script>";
     exit;
 }
 ?>
@@ -79,7 +79,9 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             $.post("ajax_delete.php", { string: string}, function(data) {
                 $("#displaymessage").html(data);
             });
-        });
+            alert('Product has been removed!'); 
+            window.location = 'manage.php';
+        }); 
         // update rec row on edit button click
         $(document).on("click", ".update", function(){
             var id = $(this).attr("id");
