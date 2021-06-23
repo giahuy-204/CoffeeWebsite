@@ -14,14 +14,18 @@ if (!isset($_SESSION['cart'])){
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Coffee Order Form</title>
 	<link rel="stylesheet" type="text/css" href="orderStyle.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
 
-	<img src="download.png" class="logo">
+	<img src="upload/download.png" class="logo">
 
 	<h3>HoHuTa coffee shop</h3>
 	<h4>Online Order Form</h4>
