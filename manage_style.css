@@ -1,7 +1,44 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d0a465;
+}
+
+li {
+    float: left;
+}
+
+.class_container ul li.active-page {
+    background-color: rgb(174, 190, 152);
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text: 15px;
+}
+
+li a:hover {
+    color: white;
+    background-color: brown;
+    font-weight: bold;
+}
+
+
 body {
     color: #404E67;
-    background: #F5F7FA;
+    background: #af7c35;
     font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    background-color: #d0a465;
+    
 }
 .table-wrapper {
     width: 700px;
@@ -145,5 +182,13 @@ table.table td .add {
     }
     .nav-toggle {
         display: block;
+    }
+    .container{
+        display: block;
+        background-color: #d0a465;
+    }
+
+    .table-wrapper{
+        width: 90%;
     }
 }

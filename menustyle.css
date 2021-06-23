@@ -135,4 +135,7 @@ body {
     .nav-toggle {
         display: block;
     }
+    .class_container{
+        display: block;
+    }
 }
