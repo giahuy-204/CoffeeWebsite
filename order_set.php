@@ -7,6 +7,10 @@ require_once ("php/order_component.php");
 
 $db = new CreateDb("3855137_hyu1", "producttb");
 
+if (!isset($_SESSION['cart'])){
+	header("location: menu.php");
+	exit;
+}	
 ?>
 
 <!DOCTYPE html>
@@ -32,10 +36,12 @@ $db = new CreateDb("3855137_hyu1", "producttb");
 
 
 <?php 
+	$id = rand(1,100);
 	// check for submit button 
 	if (isset($_POST['submit'])) {
 		echo "<p>Dear <strong>" . $_POST['name'] . "</strong>, your order has been set.";
-			echo "<br> We will contact you soon.";
+		echo "<br> Your order ID is: <strong>" . $id . "</strong>.";
+		echo "<br> We will contact you soon.";
 	}
 	echo "<br>";
 
@@ -43,7 +49,6 @@ $db = new CreateDb("3855137_hyu1", "producttb");
 
 	echo "<br>";
 
-	$total = 0;
 	if (isset($_SESSION['cart'])){
 		$product_id = array_column($_SESSION['cart'], 'product_id');
 
@@ -52,10 +57,16 @@ $db = new CreateDb("3855137_hyu1", "producttb");
 			foreach ($product_id as $id){
 				if ($row['id'] == $id){
 					cartElement($row['product_image'], $row['product_name'],$row['product_price'], $row['id']);
-					$total = $total + (int)$row['product_price'];
 				}
 			}
 		}
+	}
+
+	$note = $_POST['instuctions'];
+	if (empty($note)) {
+		echo "<p>No note received.";
+	} else {
+		echo "<p>Note: " . $note . ".";
 	}
 ?>
 
@@ -65,6 +76,7 @@ $db = new CreateDb("3855137_hyu1", "producttb");
 		<?php
 		foreach ($_SESSION['cart'] as $key => $value){
 			unset($_SESSION['cart'][$key]);
+			unset($note);
     };
 	?>
 </script>
