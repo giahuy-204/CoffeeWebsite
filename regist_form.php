@@ -1,5 +1,4 @@
 <?php
-// Include config file
 require_once ("login/connect_login.php");
  
 // Define variables and initialize with empty values

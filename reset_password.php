@@ -8,7 +8,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     exit;
 }
  
-// Include config file
 require_once ("login/connect_login.php");
  
 // Define variables and initialize with empty values

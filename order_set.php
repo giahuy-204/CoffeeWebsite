@@ -31,7 +31,6 @@ $db = new CreateDb("3855137_hyu1", "producttb");
 <body>
 
 
-	
 <?php 
 	// check for submit button 
 	if (isset($_POST['submit'])) {
