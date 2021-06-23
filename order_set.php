@@ -1,16 +1,31 @@
 <?php
 
-session_start();
+	session_start();
 
-require_once ("php/connect_menu.php");
-require_once ("php/order_component.php");
+	require_once ("php/connect_menu.php");
+	require_once ("php/order_component.php");
+	require_once ("order/connect_order.php");
 
-$db = new CreateDb("3855137_hyu1", "producttb");
+	$db = new CreateDb("3855137_hyu1", "producttb");
 
-if (!isset($_SESSION['cart'])){
-	header("location: menu.php");
-	exit;
-}	
+	if (!isset($_SESSION['cart'])){
+		header("location: menu.php");
+		exit;
+	}	
+	$id = rand(1,100);
+	$name = $_POST['name'];
+	$time = $_POST['delivery_time'];
+	$note = $_POST['instuctions'];
+
+	if(isset($_POST['submit']))
+    {
+        $sql = "INSERT INTO ordertb (id, name, order_time, note) VALUES ('$id', '$name', '$time', '$note')";
+        if(mysqli_query($link, $sql)){
+			//  echo "DEBUGGING";
+		} else{
+			echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
+		}
+    }
 ?>
 
 <!DOCTYPE html>
@@ -36,7 +51,6 @@ if (!isset($_SESSION['cart'])){
 
 
 <?php 
-	$id = rand(1,100);
 	// check for submit button 
 	if (isset($_POST['submit'])) {
 		echo "<p>Dear <strong>" . $_POST['name'] . "</strong>, your order has been set.";
@@ -62,7 +76,6 @@ if (!isset($_SESSION['cart'])){
 		}
 	}
 
-	$note = $_POST['instuctions'];
 	if (empty($note)) {
 		echo "<p>No note received.";
 	} else {
@@ -91,8 +104,8 @@ if (!isset($_SESSION['cart'])){
 			<p><strong>Email us: </strong> <a href="mailto:tai.hoan.huy196969@life.edu.vn">tai.hoan.huy196969@life.edu.vn</a></p>
 		</address>
 	</p>
-	<form method="get" action="index.html">
-            <button style="margin-left:auto;margin-right:auto;display:block;" type="submit" id="back">Back to HomePage</button>
+	<form method="post" action="index.html">
+		<input style="margin-left:auto;margin-right:auto;display:block;" type="submit" id="submit" name = "submit" value ="Back to HomePage"></input>
 	</form>
 </footer>
 
