@@ -43,7 +43,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             $('[data-toggle="tooltip"]').tooltip();
         });
   
-    // Add row on add button click
+        // Add row on add button click
         $(document).on("click", ".add", function(){
             var empty = false;
             var input = $(this).parents("tr").find('input[type="text"]');
@@ -145,7 +145,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 <div class="row">
                     <div class="col-sm-8"><h2>Menu <b>Details</b></h2></div>
                     <div class="col-sm-4">
-                        <button type="button" class="btn btn-info add-new"><i class="fa fa-plus"></i> Add New</button>
+                        <button type="button" class="btn btn-info add-new"><i class="fa fa-plus"></i> Add new product</button>
                     </div>
                 </div>
             </div>
@@ -174,9 +174,9 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                     <td><?php echo $productprice; ?></td>
                     <td><?php echo $productimage; ?></td>
                     <td>
-                        <a class="add" title="Add" data-toggle="tooltip" id="<?php echo $id; ?>"><i class="fa fa-user-plus"></i></a>
-                        <a class="edit" title="Edit" data-toggle="tooltip" id="<?php echo $id; ?>"><i class="fa fa-pencil"></i></a>
-                        <a class="delete" title="Delete" data-toggle="tooltip" id="<?php echo $id; ?>"><i class="fa fa-trash-o"></i></a>
+                        <a class="add" title="Add" data-toggle="tooltip" id="<?php echo $id; ?>"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+                        <a class="edit" title="Edit" data-toggle="tooltip" id="<?php echo $id; ?>"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                        <a class="delete" title="Delete" data-toggle="tooltip" id="<?php echo $id; ?>"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
                     </td>
                 </tr>   
         <?php } ?>     
@@ -191,5 +191,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 </div>  
 
     <script src="main.js"></script>
+
 </body>
 </html> 
