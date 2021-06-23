@@ -79,7 +79,7 @@ if (isset($_POST['add'])){
                     <a href="Contactus.html"><i class="fa fa-fw fa-user"></i>Contact us</a>
                 </li>
                 <li>
-                    <a href="manage.php"><i class="fa fa-cloud-upload" aria-hidden="true"></i>Manage Product</a>
+                    <a href="manage.php"><i class="fa fa-cloud-upload" aria-hidden="true"></i> Manage Product</a>
                 </li>
             </ul>
         </nav>
