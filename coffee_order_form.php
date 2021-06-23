@@ -102,8 +102,6 @@ if (!isset($_SESSION['cart'])){
 				</td>
 			</tr>
 
-			
-
 		</table>
 	</form>
 
