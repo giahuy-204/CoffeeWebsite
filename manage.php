@@ -185,9 +185,11 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     </div>
 </div>   
 <div class="footer-basic">
-        <footer>
-            <p class="copyright">HoHuTa coffee shop © 2018</p>
-        </footer>
-    </div>  
+    <footer>
+        <p class="copyright">HoHuTa coffee shop © 2018</p>
+    </footer>
+</div>  
+
+    <script src="main.js"></script>
 </body>
 </html> 
