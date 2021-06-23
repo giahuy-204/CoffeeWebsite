@@ -37,7 +37,6 @@ $db = new CreateDb("3855137_hyu1", "producttb");
 	if (isset($_POST['submit'])) {
 		echo "<p>Dear <strong>" . $_POST['name'] . "</strong>, your order has been set.";
 			echo "<br> We will contact you soon.";
-		echo "</p>";
 	}
 	echo "<br>";
 
