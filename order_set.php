@@ -11,7 +11,16 @@
 	if (!isset($_SESSION['cart'])){
 		header("location: menu.php");
 		exit;
-	}	
+	}
+	
+	$delete_order = "DELETE FROM ordertb WHERE ts_created < DATE_ADD(NOW(),INTERVAL -24 HOUR)"; 
+
+	if(mysqli_query($link, $delete_order)){
+		//  echo "DEBUGGING";
+	} else{
+		echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
+	}
+
 	$id = rand(1,100);
 	$name = $_POST['name'];
 	$time = $_POST['delivery_time'];
@@ -19,13 +28,14 @@
 
 	if(isset($_POST['submit']))
     {
-        $sql = "INSERT INTO ordertb (id, name, order_time, note) VALUES ('$id', '$name', '$time', '$note')";
+        $sql = "INSERT INTO ordertb (id, name, order_time, note) VALUES ('$id', '$name', '$time', '$note')"; 
         if(mysqli_query($link, $sql)){
 			//  echo "DEBUGGING";
 		} else{
 			echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
 		}
     }
+	mysqli_close($link);
 ?>
 
 <!DOCTYPE html>
@@ -83,17 +93,6 @@
 	}
 ?>
 
-
-<script type="text/javascript">
-    document.getElementById("get_started").addEventListener("click", function() {
-		<?php
-		foreach ($_SESSION['cart'] as $key => $value){
-			unset($_SESSION['cart'][$key]);
-			unset($note);
-    };
-	?>
-</script>
-
 <!-- Footer -->
 <footer>
 	<p>
@@ -108,8 +107,6 @@
 		<input style="margin-left:auto;margin-right:auto;display:block;" type="submit" id="submit" name = "submit" value ="Back to HomePage"></input>
 	</form>
 </footer>
-
 			
-
 </body>
 </html>
