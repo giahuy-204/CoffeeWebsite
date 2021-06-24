@@ -24,32 +24,6 @@ if (!isset($_SESSION['cart'])){
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
-	<img id="thumbnail" src="https://i.imgur.com/QHMQohI.jpg?1" alt="thumbnail">
-    <div class="class_container">
-        <div class="nav-toggle" id="navToggle">
-            <img id="navClosed" class="navIcon" src="https://www.richardmiddleton.me/wp-content/themes/richardcodes/assets/img/hamburger.svg" alt="nav closed">
-            <img id="navOpen" class="navIcon hidden" src="https://www.richardmiddleton.me/wp-content/themes/richardcodes/assets/img/close.svg" alt="nav open">
-        </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html"><i class="fa fa-fw fa-home"></i>Homepage</a>
-                </li>
-                <li>
-                    <a href="menu.php"><i class="fa fa-fw fa-coffee"></i>Menu</a>
-                </li>
-                <li>
-                    <a href="Aboutus.html"><i class="fa fa-fw fa-envelope"></i>About us</a>
-                </li>
-                <li>
-                    <a href="Contactus.html"><i class="fa fa-fw fa-user"></i>Contact us</a>
-                </li>
-                <li>
-                    <a href="manage.php"><i class="fa fa-cloud-upload" aria-hidden="true"></i> Manage Product</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
 
 	<img src="upload/download.png" class="logo">
 

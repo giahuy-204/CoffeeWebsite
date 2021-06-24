@@ -65,8 +65,11 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 <li>
                     <a href="Contactus.html"><i class="fa fa-fw fa-user"></i>Contact us</a>
                 </li>
-                <li class="active-page">
+                <li >
                     <a href="manage.php"><i class="fa fa-cloud-upload" aria-hidden="true"></i> Manage Product</a>
+                </li>
+                <li class="active-page">
+                    <a href="manage_order.php"><i class="fa fa-first-order" aria-hidden="true"></i> Manage Order</a>
                 </li>
             </ul>
         </nav>
