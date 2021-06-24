@@ -26,15 +26,19 @@
 	$time = $_POST['delivery_time'];
 	$note = $_POST['instuctions'];
 
-	if(isset($_POST['submit']))
-    {
-        $sql = "INSERT INTO ordertb (id, name, order_time, note) VALUES ('$id', '$name', '$time', '$note')"; 
-        if(mysqli_query($link, $sql)){
-			//  echo "DEBUGGING";
-		} else{
-			echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
+	if(isset($_POST['submit'])){
+		if(isset($_SESSION['cart'])){
+			// $item_array = array('product_id' => $_POST['product_id']);
+			// $_SESSION['cart'][$count] = $item_array;
+
+			$sql = "INSERT INTO ordertb (id, name, order_time, note) VALUES ('$id', '$name', '$time', '$note')"; 
+			if(mysqli_query($link, $sql)){
+				//  echo "DEBUGGING";
+			} else{
+				echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
+			}
 		}
-    }
+	}
 	mysqli_close($link);
 ?>
 
@@ -109,4 +113,15 @@
 </footer>
 			
 </body>
+
+<script type="text/javascript">
+    document.getElementById("get_started").addEventListener("click", function() {
+		<?php
+		foreach ($_SESSION['cart'] as $key => $value){
+			unset($_SESSION['cart'][$key]);
+			unset($note);
+    	}
+		?>
+</script>
+
 </html>
