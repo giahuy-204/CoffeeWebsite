@@ -27,6 +27,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 <script type="text/javascript">
     $(document).ready(function(){
+        $('#manage_table').DataTable({
+            "pagingType": "full_numbers"
+        }); 
+        
         var actions = $("table td:last-child").html();
         // Append table with add row form on add new button click
         $(".add-new").click(function(){

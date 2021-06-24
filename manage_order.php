@@ -27,10 +27,24 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 <script type="text/javascript">
     $(document).ready(function(){
+        $('#manage_table').DataTable({
+            "pagingType": "full_numbers"
+        }); 
+
+        var order_table = $('#manage_table').DataTable( {
+            rowReorder: {
+            selector: 'td:nth-child(2)'
+            },
+            responsive: true
+        } );
+ 
+        new $.fn.dataTable.FixedHeader(order_table);
+
         var actions = $("table td:last-child").html();
         
         // Delete row on delete button click
         $(document).on("click", ".delete", function(){
+                
             $(this).parents("tr").remove();
             $(".add-new").removeAttr("disabled");
             var id = $(this).attr("id");
@@ -84,8 +98,11 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <table class="table table-bordered" id = "manage_table">
             <thead>
                 <tr>
+                    <th>Product name</th>
                     <th>Customer name</th>
+                    <th>Customer number</th>
                     <th>Delivery time</th>
+                    <th>Delivery address</th>
                     <th>Notes</th>
                     <th>Action</th>
                 </tr>
@@ -97,12 +114,19 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             $result_pag_data = mysqli_query($conn, $query_pag_data);
             while($row = mysqli_fetch_assoc($result_pag_data)) {
                 $id=$row['id']; 
-                $customername=$row['name']; 
+                $productname=$row['name']; 
+                $customername=$row['customer_name'];
+                $customernumber=$row['customer_phone'];
+                $deliveryaddress = $row['delivery_address'];
                 $deliverytime=$row['order_time']; 
                 $productnote=$row['note']; 
+
         ?>
                 <tr>
+                    <td><?php echo $productname; ?></td>
                     <td><?php echo $customername; ?></td>
+                    <td><?php echo $customernumber; ?></td>
+                    <td><?php echo $deliveryaddress; ?></td>
                     <td><?php echo $deliverytime; ?></td>
                     <td><?php echo $productnote; ?></td>
                     <td>

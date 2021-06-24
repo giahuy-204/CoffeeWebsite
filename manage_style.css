@@ -41,7 +41,7 @@ body {
 }
 
 .table-wrapper {
-    width: 700px;
+    width: 900px;
     margin: 30px auto;
     background: #fff;
     padding: 20px;
@@ -203,11 +203,11 @@ table.table td .add {
     .nav-toggle {
         display: block;
     }
-    .container {
+    /* .container {
         display: block;
         background-color: #d0a465;
     }
     .table-wrapper {
         width: 90%;
-    }
+    } */
 }

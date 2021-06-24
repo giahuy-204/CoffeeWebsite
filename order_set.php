@@ -21,21 +21,31 @@
 		echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
 	}
 
-	$id = rand(1,100);
-	$name = $_POST['name'];
+	$id = rand(1,1000);
+	$customer_name = $_POST['name'];
 	$time = $_POST['delivery_time'];
 	$note = $_POST['instuctions'];
+	$address = $_POST['address'];
+	$phone = $_POST['tel'];
 
 	if(isset($_POST['submit'])){
 		if(isset($_SESSION['cart'])){
-			// $item_array = array('product_id' => $_POST['product_id']);
-			// $_SESSION['cart'][$count] = $item_array;
+			$product_id = array_column($_SESSION['cart'], 'product_id');
 
-			$sql = "INSERT INTO ordertb (id, name, order_time, note) VALUES ('$id', '$name', '$time', '$note')"; 
-			if(mysqli_query($link, $sql)){
-				//  echo "DEBUGGING";
-			} else{
-				echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
+			$result = $db->getData();
+			while ($row = mysqli_fetch_assoc($result)){
+				foreach ($product_id as $id){
+					if ($row['id'] == $id){
+						$product_name = $row['product_name'];
+						$sql = "INSERT INTO ordertb (order_id, name, order_time, note, customer_name, delivery_address, customer_phone) 
+						VALUES ('$id', '$product_name', '$time', '$note', '$customer_name', '$address', '$phone')"; 
+						if(mysqli_query($link, $sql)){
+							//  echo "DEBUGGING";
+						} else{
+							echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
+						}
+					}
+				}	
 			}
 		}
 	}
@@ -108,7 +118,7 @@
 		</address>
 	</p>
 	<form method="post" action="index.html">
-		<input style="margin-left:auto;margin-right:auto;display:block;" type="submit" id="submit" name = "submit" value ="Back to HomePage"></input>
+		<input style="margin-left:auto;margin-right:auto;display:block;" type="submit" id="submit" name = "submit" value ="Submit order and back to HomePage"></input>
 	</form>
 </footer>
 			
