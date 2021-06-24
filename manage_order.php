@@ -84,10 +84,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <table class="table table-bordered" id = "manage_table">
             <thead>
                 <tr>
-                    <th>Order ID</th>
                     <th>Customer name</th>
                     <th>Delivery time</th>
                     <th>Notes</th>
+                    <th>Action</th>
                 </tr>
             </thead>
             <tbody>

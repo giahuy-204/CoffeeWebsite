@@ -136,6 +136,9 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 <li class="active-page">
                     <a href="manage.php"><i class="fa fa-cloud-upload" aria-hidden="true"></i> Manage Product</a>
                 </li>
+                <li>
+                    <a href="manage_order.php"><i class="fa fa-first-order" aria-hidden="true"></i> Manage Order</a>
+                </li>
             </ul>
         </nav>
     </div>
