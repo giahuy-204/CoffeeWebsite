@@ -1,4 +1,5 @@
 <?php
+    // ob_start();
     include "connect_manage.php"; 
     $product_name  = $_POST['product_name'];
     $product_price  = $_POST['product_price'];
@@ -13,6 +14,8 @@
         } else {
             echo "Error: " . $sql . "<br>" . $conn->error."";
         }
-    $conn->close();
-} 
+        // header('Location: '.$_SERVER['REQUEST_URI']);
+        $conn->close();
+    }
+    // ob_end_flush(); 
 ?>

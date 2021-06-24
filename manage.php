@@ -62,7 +62,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             var product_name = $("#product_name").val();
             var product_price = $("#product_price").val();
             var product_image = $("#product_image").val();
-            $.post("ajax_add.php", { product_name: product_name, product_price: product_price, product_image: product_image}, function(data) {
+            $.post("menu_add.php", { product_name: product_name, product_price: product_price, product_image: product_image}, function(data) {
                 $("#displaymessage").html(data);
             });
             $(this).parents("tr").find(".error").first().focus();
@@ -80,7 +80,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             $(".add-new").removeAttr("disabled");
             var id = $(this).attr("id");
             var string = id;
-            $.post("ajax_delete.php", { string: string}, function(data) {
+            $.post("menu_delete.php", { string: string}, function(data) {
                 $("#displaymessage").html(data);
             });
             alert('Product has been removed!'); 
@@ -93,7 +93,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             var product_name = $("#product_name").val();
             var product_price = $("#product_price").val();
             var product_image = $("#product_image").val();
-            $.post("ajax_update.php", { string: string,product_name: product_name, product_price: product_price, product_image: product_image}, function(data) {
+            $.post("menu_update.php", { string: string,product_name: product_name, product_price: product_price, product_image: product_image}, function(data) {
                 $("#displaymessage").html(data);
             });
         });
