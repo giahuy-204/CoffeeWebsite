@@ -27,18 +27,18 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 <script type="text/javascript">
     $(document).ready(function(){
-        $('#manage_table').DataTable({
-            "pagingType": "full_numbers"
-        }); 
+        // $('#manage_table').DataTable({
+        //     "pagingType": "full_numbers"
+        // }); 
 
-        var order_table = $('#manage_table').DataTable( {
-            rowReorder: {
-            selector: 'td:nth-child(2)'
-            },
-            responsive: true
-        } );
+        // var order_table = $('#manage_table').DataTable( {
+        //     rowReorder: {
+        //     selector: 'td:nth-child(2)'
+        //     },
+        //     responsive: true
+        // } );
  
-        new $.fn.dataTable.FixedHeader(order_table);
+        // new $.fn.dataTable.FixedHeader(order_table);
 
         var actions = $("table td:last-child").html();
         
