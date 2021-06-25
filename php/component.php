@@ -1,6 +1,6 @@
 <?php
 
-function component($productname, $productprice, $productimg, $productid){
+function component($productname, $productprice, $productdescription, $productimg, $productid){
     $element = "
     
     <div class=\"col-md-3 col-sm-6 my-3 my-md-0\">
@@ -19,7 +19,7 @@ function component($productname, $productprice, $productimg, $productid){
                                 <i class=\"far fa-star\"></i>
                             </h6>
                             <p class=\"card-text\">
-                                Press button to add product into cart.
+                                $productdescription
                             </p>
                             <h5>
                                 <small><s class=\"text-secondary\">$5</s></small>

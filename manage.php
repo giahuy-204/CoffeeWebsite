@@ -39,6 +39,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             var row = '<tr>' +
             '<td><input type="text" class="form-control" name="name" id="product_name"></td>' +
             '<td><input type="text" class="form-control" name="product_price" id="product_price"></td>' +
+            '<td><input type="text" class="form-control" name="product_description" id="product_description"></td>' +
             '<td><input type="text" class="form-control" name="product_image" id="product_image"></td>' +
             '<td>' + actions + '</td>' +
             '</tr>';
@@ -61,12 +62,15 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             });
             var product_name = $("#product_name").val();
             var product_price = $("#product_price").val();
+            var product_description = $("#product_description").val();
             var product_image = $("#product_image").val();
-            $.post("menu_add.php", { product_name: product_name, product_price: product_price, product_image: product_image}, function(data) {
+            $.post("menu_add.php", { product_name: product_name, product_price: product_price, product_description: product_description, product_image: product_image}, function(data) {
                 $("#displaymessage").html(data);
             });
             $(this).parents("tr").find(".error").first().focus();
             if(!empty){
+                alert('Product has been added!'); 
+                window.location = 'manage.php';
                 input.each(function(){
                 $(this).parent("td").html($(this).val());
             });   
@@ -92,10 +96,13 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             var string = id;
             var product_name = $("#product_name").val();
             var product_price = $("#product_price").val();
+            var product_description = $("#product_description").val();
             var product_image = $("#product_image").val();
-            $.post("menu_update.php", { string: string,product_name: product_name, product_price: product_price, product_image: product_image}, function(data) {
+            $.post("menu_update.php", { string: string,product_name: product_name, product_price: product_price, product_description: product_description, product_image: product_image}, function(data) {
                 $("#displaymessage").html(data);
             });
+            alert('Product has been updated!'); 
+            window.location = 'manage.php';
         });
         // Edit row on edit button click
         $(document).on("click", ".edit", function(){  
@@ -105,6 +112,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 }else if (i=='1'){
                     var idname = 'product_price';
                 }else if (i=='2'){
+                    var idname = 'product_description';
+                }else if (i=='3'){
                     var idname = 'product_image';
                 }else{} 
                 $(this).html('<input type="text" name="updaterec" id="' + idname + '" class="form-control" value="' + $(this).text() + '">');
@@ -112,6 +121,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             $(this).parents("tr").find(".add, .edit").toggle();
             $(".add-new").attr("disabled", "disabled");
             $(this).parents("tr").find(".add").removeClass("add").addClass("update");
+            // alert('Product has been adjusted!'); 
+            // window.location = 'manage.php';
         });
     });
 </script> 
@@ -161,6 +172,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 <tr>
                     <th>Name</th>
                     <th>Price</th>
+                    <th>Description</th>
                     <th>Image</th>
                     <th>Actions</th>
                 </tr>
@@ -173,12 +185,14 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             while($row = mysqli_fetch_assoc($result_pag_data)) {
                 $id=$row['id']; 
                 $productname=$row['product_name']; 
-                $productprice=$row['product_price']; 
+                $productprice=$row['product_price'];
+                $productdescription = $row['product_description']; 
                 $productimage=$row['product_image']; 
         ?>
                 <tr>
                     <td><?php echo $productname; ?></td>
                     <td><?php echo $productprice; ?></td>
+                    <td><?php echo $productdescription; ?></td>
                     <td><?php echo $productimage; ?></td>
                     <td>
                         <a class="add" title="Add" data-toggle="tooltip" id="<?php echo $id; ?>"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
