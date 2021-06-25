@@ -1,8 +1,13 @@
 <style>
-    @media screen and (max-width:720px) {
-         #headerid {
-             margin-top:32px;
-         }   
+    @media screen and (max-width:1000px) {
+        #headerid {
+            margin-top:32px;
+        }   
+    }
+    @media screen and (max-width:426px) {
+        #headerid {
+            margin-top:80px;
+        }   
     }
 </style>
 
