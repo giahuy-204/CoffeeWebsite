@@ -81,6 +81,10 @@ table.table tr td {
     border-color: #e9e9e9;
 }
 
+table.table tr td {
+    overflow: auto;
+}
+
 table.table th i {
     font-size: 13px;
     margin: 0 5px;

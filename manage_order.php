@@ -98,9 +98,9 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <table class="table table-bordered" id = "manage_table">
             <thead>
                 <tr>
-                    <th>Product name</th>
                     <th>Customer name</th>
                     <th>Customer number</th>
+                    <th>Product ordered</th>
                     <th>Delivery time</th>
                     <th>Delivery address</th>
                     <th>Notes</th>
@@ -110,7 +110,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             <tbody>
         <?php 
             include "connect_manage.php"; 
-            $query_pag_data = "SELECT * from ordertb ORDER BY order_time DESC";
+            $query_pag_data = "SELECT * from ordertb ORDER BY ts_created DESC";
             $result_pag_data = mysqli_query($conn, $query_pag_data);
             while($row = mysqli_fetch_assoc($result_pag_data)) {
                 $id=$row['id']; 
@@ -123,11 +123,11 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
         ?>
                 <tr>
-                    <td><?php echo $productname; ?></td>
                     <td><?php echo $customername; ?></td>
                     <td><?php echo $customernumber; ?></td>
-                    <td><?php echo $deliveryaddress; ?></td>
+                    <td><?php echo $productname; ?></td>
                     <td><?php echo $deliverytime; ?></td>
+                    <td><?php echo $deliveryaddress; ?></td>
                     <td><?php echo $productnote; ?></td>
                     <td>
                         <a class="delete" title="Delete" data-toggle="tooltip" id="<?php echo $id; ?>"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
