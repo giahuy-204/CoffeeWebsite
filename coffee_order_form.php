@@ -20,8 +20,8 @@ if (!isset($_SESSION['cart'])){
 	<link rel="stylesheet" type="text/css" href="orderStyle.css">
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="order_form_style.css">
 </head>
 <body>
 
@@ -47,11 +47,6 @@ if (!isset($_SESSION['cart'])){
 						<input type="email" name="email" id="email" required>
 					</p>
 
-					<!-- Address -->
-					<p>
-						<label>*Address: </label>
-						<input type="text" name="address" id="address" required>
-					</p>	
 				</td>
 				<td colspan="2">
 					<!-- Telephone -->
@@ -60,17 +55,12 @@ if (!isset($_SESSION['cart'])){
 						<input type="text" name="tel" id="tel" required>
 					</p>
 
-					<!-- City -->
+					<!-- Address -->
 					<p>
-						<label>*City: </label>
-						<input type="text" name="city" id="city" required>
-					</p>
+						<label>*Address: </label>
+						<input type="text" name="address" id="address" required>
+					</p>	
 
-					<!-- District -->
-					<p>
-						<label>*District: </label>
-						<input type="text" name="dis" id="dis" required>
-					</p>
 				</td>
 			</tr>
 			

@@ -121,6 +121,12 @@
 		<input style="margin-left:auto;margin-right:auto;display:block;" type="submit" id="submit" name = "submit" value ="Submit order and back to HomePage"></input>
 	</form>
 </footer>
+
+<div class="footer-basic">
+    <footer>
+        <p class="copyright">HoHuTa coffee shop © 2018</p>
+    </footer>
+</div>
 			
 </body>
 
