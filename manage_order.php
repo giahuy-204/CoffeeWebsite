@@ -98,6 +98,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <table class="table table-bordered" id = "manage_table">
             <thead>
                 <tr>
+                    <th>Order ID</th>
                     <th>Customer name</th>
                     <th>Customer number</th>
                     <th>Product ordered</th>
@@ -114,15 +115,16 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             $result_pag_data = mysqli_query($conn, $query_pag_data);
             while($row = mysqli_fetch_assoc($result_pag_data)) {
                 $id=$row['id']; 
+                $orderid = $row['order_id'];
                 $productname=$row['name']; 
                 $customername=$row['customer_name'];
                 $customernumber=$row['customer_phone'];
                 $deliveryaddress = $row['delivery_address'];
                 $deliverytime=$row['order_time']; 
                 $productnote=$row['note']; 
-
         ?>
                 <tr>
+                    <td><?php echo $orderid; ?></td>
                     <td><?php echo $customername; ?></td>
                     <td><?php echo $customernumber; ?></td>
                     <td><?php echo $productname; ?></td>

@@ -21,12 +21,13 @@
 		echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
 	}
 
-	$id = rand(1,1000);
+	$order_id = rand(100000,999999);
 	$customer_name = $_POST['name'];
 	$time = $_POST['delivery_time'];
 	$note = $_POST['instuctions'];
 	$address = $_POST['address'];
 	$phone = $_POST['tel'];
+	$productArr = [];
 
 	if(isset($_POST['submit'])){
 		if(isset($_SESSION['cart'])){
@@ -37,16 +38,19 @@
 				foreach ($product_id as $id){
 					if ($row['id'] == $id){
 						$product_name = $row['product_name'];
-						$sql = "INSERT INTO ordertb (order_id, name, order_time, note, customer_name, delivery_address, customer_phone) 
-						VALUES ('$id', '$product_name', '$time', '$note', '$customer_name', '$address', '$phone')"; 
-						if(mysqli_query($link, $sql)){
-							//  echo "DEBUGGING";
-						} else{
-							echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
-						}
+						array_push($productArr, $product_name);
 					}
 				}	
 			}
+			$product_array = implode(", ",$productArr);
+			$sql = "INSERT INTO ordertb (order_id, name, order_time, note, customer_name, delivery_address, customer_phone) 
+			VALUES ('$order_id', '$product_array', '$time', '$note', '$customer_name', '$address', '$phone')"; 
+			if(mysqli_query($link, $sql)){
+				//  echo "DEBUGGING";
+			} else{
+				echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
+			}
+			// echo "<script>console.log('Debug Objects: " . implode(" ",$myArr) . "' );</script>";
 		}
 	}
 	mysqli_close($link);
@@ -78,7 +82,7 @@
 	// check for submit button 
 	if (isset($_POST['submit'])) {
 		echo "<p>Dear <strong>" . $_POST['name'] . "</strong>, your order has been set.";
-		echo "<br> Your order ID is: <strong>" . $id . "</strong>.";
+		echo "<br> Your order ID is: <strong>" . $order_id . "</strong>.";
 		echo "<br> We will contact you soon.";
 	}
 	echo "<br>";
