@@ -30,7 +30,7 @@ if (!isset($_SESSION['cart'])){
 	<h3>HoHuTa coffee shop</h3>
 	<h4>Online Order Form</h4>
 
-	<form method="POST" action="order_set.php">
+	<form method="POST" action="order_set.php" onsubmit="return timeCheck(event)">
 		
 		<table align="center" cellpadding="5">
 			<tr>
@@ -100,5 +100,43 @@ if (!isset($_SESSION['cart'])){
         </footer>
     </div>
 
+	<script>
+		function timeCheck(event){
+			var element = document.getElementById("delivery_time").value;
+  
+			if (element == "") {
+			alert("Please Enter Time");
+				return false;  
+			}
+			else {
+			
+			// get system local time
+			var d = new Date();
+			var m = d.getMinutes();
+			var h = d.getHours();
+			if(h == '0') {h = 24}
+			
+			var currentTime = h+"."+m;
+			console.log(currentTime);
+			
+			// get input time
+			var time = element.split(":");
+			var hour = time[0];
+			if(hour == '00') {hour = 24}
+			var min = time[1];
+			
+			var inputTime = hour+"."+min;
+			console.log(inputTime);
+			
+			var totalTime = inputTime - currentTime;
+			console.log(totalTime);
+			
+			if (totalTime < 0.5) {
+				alert("Please input valid time longer than 30 minutes!")
+				event.preventDefault();
+			} 
+    	}
+	}
+	</script>
 </body>
 </html>

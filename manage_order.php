@@ -111,7 +111,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             <tbody>
         <?php 
             include "connect_manage.php"; 
-            $query_pag_data = "SELECT * from ordertb ORDER BY ts_created DESC";
+            $query_pag_data = "SELECT * from ordertb ORDER BY order_time ASC";
             $result_pag_data = mysqli_query($conn, $query_pag_data);
             while($row = mysqli_fetch_assoc($result_pag_data)) {
                 $id=$row['id']; 
