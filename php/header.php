@@ -1,5 +1,5 @@
 <style>
-    @media screen and (max-width:1000px) {
+    @media screen and (max-width:774px) and (min-width: 426px){
         #headerid {
             margin-top:32px;
         }   
