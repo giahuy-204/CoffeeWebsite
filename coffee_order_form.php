@@ -71,7 +71,7 @@ if (!isset($_SESSION['cart'])){
 					<label>Preferred Delivery Time: </label>
 				</td>
 				<td colspan="2">
-					<input type="time" name="delivery_time" id="delivery_time" required>
+					<input type="time" name="delivery_time" id="delivery_time" min='07:00' max= '21:00' required>
 				</td>
 			</tr>
 
