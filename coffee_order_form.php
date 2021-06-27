@@ -31,7 +31,11 @@ if (!isset($_SESSION['cart'])){
 	<h4>Online Order Form</h4>
 
 	<form method="POST" action="order_set.php" onsubmit="return timeCheck(event)">
-		
+		<?php
+			$rand=rand();
+			$_SESSION['rand']=$rand;
+		?>
+		<input type="hidden" value="<?php echo $rand; ?>" name="randcheck" />
 		<table align="center" cellpadding="5">
 			<tr>
 				<td>
@@ -73,7 +77,7 @@ if (!isset($_SESSION['cart'])){
 				<td colspan="2">
 					<input type="time" name="delivery_time" id="delivery_time" min='07:00' max= '21:00' required>
 				</td>
-			</tr>
+			</tr>z
 
 			<!-- Note for items -->
 			<tr>

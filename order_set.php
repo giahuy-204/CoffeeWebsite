@@ -1,59 +1,60 @@
 <?php
 
 	session_start();
+	if(isset($_POST['submit']) && $_POST['randcheck']==$_SESSION['rand']){
+		require_once ("php/connect_menu.php");
+		require_once ("php/order_component.php");
+		require_once ("order/connect_order.php");
 
-	require_once ("php/connect_menu.php");
-	require_once ("php/order_component.php");
-	require_once ("order/connect_order.php");
+		$db = new CreateDb("3855137_hyu1", "producttb");
 
-	$db = new CreateDb("3855137_hyu1", "producttb");
-
-	if (!isset($_SESSION['cart'])){
-		header("location: menu.php");
-		exit;
-	}
-	
-	$delete_order = "DELETE FROM ordertb WHERE ts_created < DATE_ADD(NOW(),INTERVAL -24 HOUR)"; 
-
-	if(mysqli_query($link, $delete_order)){
-		//  echo "DEBUGGING";
-	} else{
-		echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
-	}
-
-	$order_id = rand(100000,999999);
-	$customer_name = $_POST['name'];
-	$time = $_POST['delivery_time'];
-	$note = $_POST['instuctions'];
-	$address = $_POST['address'];
-	$phone = $_POST['tel'];
-	$productArr = [];
-
-	if(isset($_POST['submit'])){
-		if(isset($_SESSION['cart'])){
-			$product_id = array_column($_SESSION['cart'], 'product_id');
-
-			$result = $db->getData();
-			while ($row = mysqli_fetch_assoc($result)){
-				foreach ($product_id as $id){
-					if ($row['id'] == $id){
-						$product_name = $row['product_name'];
-						array_push($productArr, $product_name);
-					}
-				}	
-			}
-			$product_array = implode(", ",$productArr);
-			$sql = "INSERT INTO ordertb (order_id, name, order_time, note, customer_name, delivery_address, customer_phone) 
-			VALUES ('$order_id', '$product_array', '$time', '$note', '$customer_name', '$address', '$phone')"; 
-			if(mysqli_query($link, $sql)){
-				//  echo "DEBUGGING";
-			} else{
-				echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
-			}
-			// echo "<script>console.log('Debug Objects: " . implode(" ",$myArr) . "' );</script>";
+		if (!isset($_SESSION['cart'])){
+			header("location: menu.php");
+			exit;
 		}
-	}
-	mysqli_close($link);
+		
+		$delete_order = "DELETE FROM ordertb WHERE ts_created < DATE_ADD(NOW(),INTERVAL -24 HOUR)"; 
+
+		if(mysqli_query($link, $delete_order)){
+			//  echo "DEBUGGING";
+		} else{
+			echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
+		}
+
+		$order_id = rand(100000,999999);
+		$customer_name = $_POST['name'];
+		$time = $_POST['delivery_time'];
+		$note = $_POST['instuctions'];
+		$address = $_POST['address'];
+		$phone = $_POST['tel'];
+		$productArr = [];
+
+		if(isset($_POST['submit'])){
+			if(isset($_SESSION['cart'])){
+				$product_id = array_column($_SESSION['cart'], 'product_id');
+
+				$result = $db->getData();
+				while ($row = mysqli_fetch_assoc($result)){
+					foreach ($product_id as $id){
+						if ($row['id'] == $id){
+							$product_name = $row['product_name'];
+							array_push($productArr, $product_name);
+						}
+					}	
+				}
+				$product_array = implode(", ",$productArr);
+				$sql = "INSERT INTO ordertb (order_id, name, order_time, note, customer_name, delivery_address, customer_phone) 
+				VALUES ('$order_id', '$product_array', '$time', '$note', '$customer_name', '$address', '$phone')"; 
+				if(mysqli_query($link, $sql)){
+					//  echo "DEBUGGING";
+				} else{
+					echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
+				}
+				// echo "<script>console.log('Debug Objects: " . implode(" ",$myArr) . "' );</script>";
+			}
+		}
+		mysqli_close($link);
+		}
 ?>
 
 <!DOCTYPE html>
