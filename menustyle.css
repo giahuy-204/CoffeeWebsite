@@ -92,7 +92,7 @@ body {
     width: 100%;
 }
 
-.nav-toggle {
+.nav-toggle1 {
     display: none;
     position: absolute;
     top: 1.5rem;
@@ -100,12 +100,12 @@ body {
     cursor: pointer;
 }
 
-.nav-toggle img {
+.nav-toggle1 img {
     width: 1.5rem;
     transition: 300ms all ease;
 }
 
-.nav-toggle:hover img {
+.nav-toggle1:hover img {
     opacity: 0.6;
 }
 
@@ -117,8 +117,8 @@ body {
     display: none;
 }
 
-@media screen and (max-width:0px) {
-    nav {
+@media screen and (max-width:720px) {
+    .nav1 {
         height: 0;
         /* width: 100%; */
         overflow: hidden;
@@ -132,7 +132,7 @@ body {
     li a {
         font-size: 1.4rem;
     }
-    .nav-toggle {
+    .nav-toggle1 {
         display: block;
     }
     .class_container {
