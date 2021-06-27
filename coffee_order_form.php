@@ -22,6 +22,7 @@ if (!isset($_SESSION['cart'])){
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="order_form_style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
 
@@ -72,12 +73,12 @@ if (!isset($_SESSION['cart'])){
 			<!-- Delivery Time -->
 			<tr>
 				<td>
-					<label>Preferred Delivery Time: </label>
+					<label>Preferred Delivery Time (GMT+7): </label>
 				</td>
 				<td colspan="2">
 					<input type="time" name="delivery_time" id="delivery_time" min='07:00' max= '21:00' required>
 				</td>
-			</tr>z
+			</tr>
 
 			<!-- Note for items -->
 			<tr>
@@ -92,7 +93,13 @@ if (!isset($_SESSION['cart'])){
 			<!-- Submit Button -->
 			<tr>
 				<td colspan="3" align="center">
-					<button type="submit" name="submit" id="submit">Submit Order</button>
+					<button type="submit" name="submit" id="submit" class="btn btn-success">Submit Order</button>
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="3" align="center">
+					<button type="button" class="btn btn-info" onclick="window.location.href='menu.php';">I still want to order more!</button>
 				</td>
 			</tr>
 
