@@ -54,7 +54,6 @@ if (isset($_POST['add'])){
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body style="background-color:#af7c35">
 
@@ -80,6 +79,9 @@ if (isset($_POST['add'])){
                 </li>
                 <li>
                     <a href="manage.php"><i class="fa fa-cloud-upload" aria-hidden="true"></i>Manage Product</a>
+                </li>
+                <li>
+                    <a href="manage_order.php"><i class="fa fa-first-order"></i> Manage Order</a>
                 </li>
             </ul>
         </nav>
