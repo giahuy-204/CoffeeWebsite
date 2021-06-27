@@ -28,10 +28,7 @@
 	$address = $_POST['address'];
 	$phone = $_POST['tel'];
 	$productArr = [];
-	if ($product_array === '') {
-		$product_array = null;
-	}
-	
+
 	if(isset($_POST['submit'])){
 		if(isset($_SESSION['cart'])){
 			$product_id = array_column($_SESSION['cart'], 'product_id');
@@ -125,7 +122,7 @@
 		</address>
 	</p>
 	<form method="post" action="index.html">
-		<input style="margin-left:auto;margin-right:auto;display:block;" type="submit" id="submit" name = "submit" value ="Back to HomePage"></input>
+		<input style="margin-left:auto;margin-right:auto;display:block;" type="submit" id="submit" name = "submit" value ="Submit order and back to HomePage"></input>
 	</form>
 </footer>
 

@@ -88,7 +88,7 @@ if (!isset($_SESSION['cart'])){
 			<!-- Submit Button -->
 			<tr>
 				<td colspan="3" align="center">
-					<button type="submit" name="submit" id="submit">Submit your order</button>
+					<button type="submit" name="submit" id="submit">Submit Order</button>
 				</td>
 			</tr>
 
