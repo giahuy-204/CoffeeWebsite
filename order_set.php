@@ -112,6 +112,12 @@
 	}
 ?>
 
+<script>
+	if ( window.history.replaceState ) {
+		window.history.replaceState( null, null, 'menu.php' );
+	}
+</script>
+
 <!-- Footer -->
 <footer>
 	<p>

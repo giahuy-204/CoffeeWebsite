@@ -105,6 +105,12 @@ if (!isset($_SESSION['cart'])){
     </div>
 
 	<script>
+		if ( window.history.replaceState ) {
+			window.history.replaceState( null, null, 'menu.php' );
+		}
+	</script>
+
+	<script>
 		function timeCheck(event){
 			var element = document.getElementById("delivery_time").value;
   
